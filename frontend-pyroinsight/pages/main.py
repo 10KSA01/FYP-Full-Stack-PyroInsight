@@ -1,11 +1,10 @@
-from dash import Dash, html, dcc
-import dash
+from dash import Dash, html, dcc, register_page
 import dash_bootstrap_components as dbc
 from components.sidebar import get_sidebar
 from components.statistic_card import get_statistic_card
 from components.other import *
 
-dash.register_page(__name__, path='/')
+register_page(__name__, path='/')
 
 layout = dbc.Card(
     dbc.CardBody(

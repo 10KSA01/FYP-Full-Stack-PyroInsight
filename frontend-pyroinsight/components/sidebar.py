@@ -7,8 +7,8 @@ descriptions = ["Main Dashboard", "Device Dashboard", "Profile", "Logout"]
 sidebar_buttons = dbc.ButtonGroup(
     [
         dbc.Button(class_name="mw-1 bi bi-house-fill", id="main", size="lg", href='/'),
-        dbc.Button(class_name="bi bi-motherboard-fill", id="devices", size="lg", href='/analytics'),
-        dbc.Button(class_name="bi bi-person-lines-fill", id="profile", size="lg"),
+        dbc.Button(class_name="bi bi-motherboard-fill", id="devices", size="lg", href='/devices'),
+        dbc.Button(class_name="bi bi-person-lines-fill", id="profile", size="lg", href='/analytics'),
         dbc.Button(class_name="bi bi-box-arrow-right", id="logout", size="lg"),
         
         dbc.Tooltip("Main Dashboard", target="main", placement="right"),
