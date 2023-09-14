@@ -71,9 +71,10 @@ def device_property_card():
 @callback(
     Output('selected-rows-store', 'data'),
     Input('device-table', 'selectedRows'),
+    prevent_initial_call=True,
 )
 def store_selected_rows(selectedRows):
-    print("hi",selectedRows)
+    # print("hi",selectedRows)
     return selectedRows
 
 @callback(
@@ -83,15 +84,38 @@ def store_selected_rows(selectedRows):
     prevent_initial_call=True,
 )
 def download_current_data(n_clicks, selected_rows):
+    if n_clicks is None or n_clicks == 0:
+        return None  # No download
+    if n_clicks == 1:
+        print(n_clicks, "noo")
+        if selected_rows:
+            current_selected_row = selected_rows[0]['id']
+            response = requests.get(f'http://127.0.0.1:8000/device/{current_selected_row}/latest')
+            data = response.json()
+            dataPd = pd.DataFrame(data)
+            n_clicks = 0
+            print(n_clicks, "ues")
+            return dcc.send_data_frame(dataPd.to_csv, "selected_data.csv")
+    else:
+        return None
+        
+@callback(
+    Output("download-history-data", "data"),
+    Input("history-data", "n_clicks"),
+    Input('selected-rows-store', 'data'),
+    prevent_initial_call=True,
+)
+def download_history_data(n_clicks, selected_rows):
     if n_clicks:
         if selected_rows:
-            print("bye", selected_rows)
-            selected_rows_data = pd.DataFrame(selected_rows)
-            return dcc.send_data_frame(selected_rows_data.to_csv, "selected_data.csv")
-
-
-    # csv_string = selected_rows+".csv"
-    # return dcc.send_data_frame(data.to_csv, "file.csv")
+            current_selected_row = selected_rows[0]['id']
+            response = requests.get(f'http://127.0.0.1:8000/device/{current_selected_row}')
+            data = response.json()
+            dataPd = pd.DataFrame(data)
+            n_clicks = 0
+            return dcc.send_data_frame(dataPd.to_csv, "history_data.csv")
+    else:
+        return None
 
 # Callback to update the AgGrid table with filtered data from the backend
 @callback(
@@ -110,7 +134,8 @@ def update_device_table(n_intervals):
 @callback(
     Output('data-table', 'columns'),
     Output('data-table', 'data'),
-    Input('device-table', 'selectedRows')
+    Input('device-table', 'selectedRows'),
+    prevent_initial_call=True,
 )
 def update_data_table(selectedRows):
     if selectedRows:   
