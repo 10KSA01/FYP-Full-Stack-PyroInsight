@@ -27,18 +27,18 @@ layout = dbc.Card(
             html.Br(),
             dbc.Row(
                 [
-                    dbc.Col([get_statistic_card()], width=4),
-                    dbc.Col([get_statistic_card()], width=4),
-                    dbc.Col([get_statistic_card()], width=4),
+                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
+                    dbc.Col([get_statistic_card("Devices disabled this year", "15")], width=4),
+                    dbc.Col([get_statistic_card("Devices disabled this year", "20")], width=4),
                 ],
                 align="center",    
             ),
             html.Br(),
             dbc.Row(
                 [
-                    dbc.Col([get_statistic_card()], width=4),
-                    dbc.Col([get_statistic_card()], width=4),
-                    dbc.Col([get_statistic_card()], width=4),
+                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
+                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
+                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
                 ],
                 align="center",    
             ),

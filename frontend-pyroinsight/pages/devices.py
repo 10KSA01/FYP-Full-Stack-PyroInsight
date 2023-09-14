@@ -3,10 +3,21 @@ from dash import Dash, html, dcc, register_page, Input, Output, callback, dash_t
 import dash_bootstrap_components as dbc
 import requests
 from components.device_table import *
-
+from components.statistic_card import get_statistic_card
+from components.other import *
 
 register_page(__name__)
 
+def failure():
+    try:
+        # Fetch data from an API
+        response = requests.get("http://127.0.0.1:8000/failure/0/")
+        data = response.json()
+
+        return str(data)
+    except Exception as e:
+        print("Error:", e)
+        return "Error fetching data"
 
 layout = dbc.Card(
     dbc.CardBody(
@@ -27,10 +38,27 @@ layout = dbc.Card(
                 align="center",    
             ),
             html.Br(),
+            dbc.Row(
+                [
+                    # dcc.Interval(id='interval', interval=1000 * 10, n_intervals=0),
+                    dbc.Col([get_statistic_card("Failed devices", failure())], width=4),
+                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
+                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
+                ],
+                align="center",    
+            ),
+            html.Br(),
+            dbc.Row(
+                [
+                    dbc.Col([panel_status_line_graph()], width=4),
+                    dbc.Col([dfgraph()], width=4),
+                    dbc.Col([dfgraph()], width=4),
+                ],
+                align="center",    
+            ),
         ]
     )
 )
-
 # # Callback to update the DataTable with data from the FastAPI backend
 # @callback(
 #     Output('data-table', 'data'),

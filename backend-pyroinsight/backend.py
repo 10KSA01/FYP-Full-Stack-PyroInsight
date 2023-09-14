@@ -13,7 +13,7 @@ import pandas as pd
 ## Don't press the play button in the top right corner, it will not work ##
 user = "jacharku"
 password = "TestServer123"
-tablename = "t01-09-23"
+tablename = "sqa13-09-23"
 host = "test-jacharku.postgres.database.azure.com"
 port = "5432"
 dbname = "testing"
@@ -156,6 +156,7 @@ async def read_latest_data(node: int):
         print("Error:", e)
         return JSONResponse(content={"message": "Internal server error."}, status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+# Shows all the nodes in the database
 @app.get("/nodes", response_model=List[int])
 async def get_nodes():
     query = select(distinct(data.c.node))
@@ -163,5 +164,37 @@ async def get_nodes():
     nodes = sorted([row[0] for row in result])
     return nodes
 
+# Returns how many devices in a node where the replay status is "Failure"
+@app.get("/failure/{node}/", response_model=int, status_code=status.HTTP_200_OK)
+async def read_latest_data(node: int):
+    try:
+        subquery = (
+            select([data.c.node, data.c.id, func.max(data.c.datetime).label("latest_datetime")])
+            .where(data.c.node == node)
+            .group_by(data.c.node, data.c.id)
+        ).alias("latest_subquery")
+
+        query = (
+            select([data])
+            .select_from(data.join(subquery, and_(
+                data.c.node == subquery.c.node,
+                data.c.id == subquery.c.id,
+                data.c.datetime == subquery.c.latest_datetime
+            )))
+            .order_by(data.c.id)
+        )
+
+        result = await database.fetch_all(query)
+
+        if not result:
+            return JSONResponse(content={"message": "No data found for the given node."}, status_code=status.HTTP_404_NOT_FOUND)
+
+        # Count the number of faulty devices (reply_status == "Failure")
+        faulty_devices = sum(1 for row in result if row["reply_status"] == "Failure")
+        
+        return faulty_devices
+    except Exception as e:
+        print("Error:", e)
+        return JSONResponse(content={"message": "Internal server error."}, status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
