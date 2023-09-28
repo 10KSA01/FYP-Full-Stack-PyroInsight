@@ -23,7 +23,7 @@ app.layout = html.Div(
     [
         dbc.Row(
             [
-                dbc.Col(get_sidebar(), style={"maxWidth": "5%"}),
+                dbc.Col(get_sidebar(), style={"maxWidth": "5%"}), 
                 dbc.Col(dash.page_container, style={"maxWidth": "95%"}),
             ],
             class_name="g-0"
