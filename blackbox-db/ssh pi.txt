@@ -1,0 +1,12 @@
+Open CMD or powershell:
+
+ssh user@10.163.233.143
+
+
+
+To copy file over via ssh from pi to pc, you use the following command:
+
+scp username@b:/path/to/file /path/to/destination
+
+example:
+scp user@10.163.233.143:~/justBlackboxToDB/blackbox-db/logs/t24-08-23.csv C:\Users\jacharku\Downloads\

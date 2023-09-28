@@ -32,7 +32,8 @@ def get_sidebar():
                     html.Br(),
                     html.Br(),
                     dbc.Row(sidebar_buttons),
-                ]   
+                ],
+                style={'height': '100vh'}
             )
         )
     )
