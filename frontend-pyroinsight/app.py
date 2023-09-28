@@ -6,6 +6,9 @@ from components.sidebar import get_sidebar
 from components.statistic_card import get_statistic_card
 from components.other import *
 
+# To run the app:
+# python -m uvicorn app:app --reload
+
 icons = ["bi bi-house-fill", "bi bi-motherboard-fill", "bi bi-person-lines-fill", "bi bi-box-arrow-right"]
 descriptions = ["Main Dashboard", "Device Dashboard", "Profile", "Logout"]
 
@@ -20,8 +23,8 @@ app.layout = html.Div(
     [
         dbc.Row(
             [
-                dbc.Col(get_sidebar(), width=1),
-                dbc.Col(dash.page_container, width=11),
+                dbc.Col(get_sidebar(), style={"maxWidth": "5%"}), 
+                dbc.Col(dash.page_container, style={"maxWidth": "95%"}),
             ],
             class_name="g-0"
         ),

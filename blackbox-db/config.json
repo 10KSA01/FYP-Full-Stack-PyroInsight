@@ -3,14 +3,14 @@
     "dbname": "testing",
     "user": "jacharku",
     "password": "TestServer123",
-    "tablename": "sqa18-08-23",
+    "tablename": "21-08-23",
     "find_log_file_path": "FYP-Full-Stack-PyroInsight\\blackbox-db\\logs\\SunburySQAZettlerRig.log",
-    "timestamp": "2023-04-12 10:25:20",
+    "timestamp": "2023-04-22 10:25:20",
     "cooldown": 10,
-    "save_local_file_path": "FYP-Full-Stack-PyroInsight\\blackbox-db\\logs\\sqa18-08-23.csv",
+    "save_local_file_path": "FYP-Full-Stack-PyroInsight\\blackbox-db\\logs\\21-08-23.csv",
     "save_local": true,
     "replace_file": true,
     "replace_table": true,
-    "save_only_colunm": false,
+    "save_only_colunm": true,
     "reconnect_timer": 300
 }
