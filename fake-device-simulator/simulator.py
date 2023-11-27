@@ -3,18 +3,10 @@ from datetime import datetime
 import random
 import time
 from clock import Clock
-# Get the current date and time
-current_datetime = datetime.now()
+import csv
+import os
 
-# Format the current datetime as a string in the desired format
-formatted_datetime = current_datetime.strftime("%a %b %d %H:%M:%S %Y")
-
-counter = 0
-
-# Display the DataFrame
-print(formatted_datetime)
-
-
+logfile_location = 'logfile.csv'
 
 headers = [
     "datetime",                      # 0
@@ -63,25 +55,95 @@ headers = [
             #0                          #1          #2    #3  #4                        #5  #6     #7 #8 #9  #10     #11 #12 #13 #14  #15   #16     #17 #18#19#20#21#22 #23             #24 #25 #26    #27     #28        #29  #30  #31  #32    #33 #34 #35  #36  #37  #38     #39     #40
 device1 = ["Wed Apr 19 13:42:22 2023",	"Success", "None", 0, "MP CPU/Software Channel", 0,	"None",	1, 1, 0, "850 PH", 3, 0, 103, 103, 164, "Thorn", 41, 0,	0, 0, 0, 0,	"LTA Available", 0,	8, "None", "None", "Invalid", 116, 105, 111, "None", 95, 99, 104, 97, 110, "None", "None", "None"]
 
-print(device1)
+def file_exist():
+    # Check if logfile exist, if it does not then write header
+    if not os.path.exists(logfile_location):
+        with open(logfile_location, 'a', newline='') as file:
+        # Create a CSV writer
+            csv_writer = csv.writer(file)
+            # Write the new row to the CSV file
+            csv_writer.writerow(headers)
+
+def current_time():
+    # Get the current date and time
+    current_datetime = datetime.now()
+
+    # Format the current datetime as a string in the desired format
+    return current_datetime.strftime("%a %b %d %H:%M:%S %Y")
+
+
+
+counter = 1
+
+def get_counter():
+    return counter
+
+def set_counter(counter):
+    counter = counter
+
+## Random failures ##
 def rand_failure_reply_status():
     return random.randint(4,7)
 
 def rand_failure_flags():
     return random.randint(90,110)
-def update_device():
-    device1[0] = formatted_datetime
-    if counter % rand_failure_reply_status == 0:
-        device1[1] = "Failure"
-    if counter % rand_failure_flags == 0:
-        device1[1] = "Loop Fault"
-while True:
-    print("Start")
-    clock = Clock(start=True)
-    if clock.time_elapsed(5):
-        update_device()
-        
 
+def rand_failure_instantaneous_fault_state():
+    return random.randint(1,255)
+
+def rand_failure_confirmed_fault_state():
+    return random.randint(1,255)
+
+def rand_failure_acknowledged_fault_state():
+    return random.randint(1,255)
+
+def rand_failures():
+    if get_counter() % rand_failure_reply_status() == 0:
+        device1[1] = "Failure"
+
+    if get_counter() % rand_failure_flags() == 0:
+        device1[2] = "Loop Fault"
+
+    if get_counter() % rand_failure_instantaneous_fault_state() == 0:
+        device1[33] = str(rand_failure_instantaneous_fault_state())
+
+    if get_counter() % rand_failure_confirmed_fault_state() == 0:
+        device1[35] = str(rand_failure_confirmed_fault_state())
+
+    if get_counter() % rand_failure_acknowledged_fault_state() == 0:
+        device1[37] = str(rand_failure_acknowledged_fault_state())
+
+def rand_dirtiness():
+    return random.randint(1,100)
+
+
+def update_dirtiness():
+    # can change rand_num to any number between 1-100, so if rand_dirtiness() is equal to rand_num then increase the dirtiness
+    rand_num = 50 
+    if int(device1[25]) < 255:
+        if rand_dirtiness() == rand_num:
+            device1[25] = str(int(device1[25]) + 1)
+
+def update_device():
+    device1[0] = current_time()
+    rand_failures()
+    update_dirtiness()
+    set_counter(get_counter() + 1)
+
+    print(device1)
+    with open(logfile_location, 'a', newline='') as file:
+    # Create a CSV writer
+        csv_writer = csv.writer(file)
+
+        # Write the new row to the CSV file
+        csv_writer.writerow(device1)
+
+clock = Clock(start=True)
+while True:
+    if clock.time_elapsed(5):
+        file_exist()
+        print("device added")
+        update_device()
     
     
     
