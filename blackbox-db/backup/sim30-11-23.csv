@@ -1,0 +1,1720 @@
+id,datetime,reply_status,node,channel_address,point_number,logical_point_number,logical_point_zone,device_type,dirtiness,units_of_measure1,units_of_measure2,units_of_measure3,converted_value1,converted_value2,converted_value3
+1_0_1_1_0,2023-11-30 22:52:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 22:52:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 22:52:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 22:53:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 22:53:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 22:53:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 22:54:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 22:54:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 22:54:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 22:55:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 22:55:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 22:55:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 22:56:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 22:56:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 22:56:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 22:57:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 22:57:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 22:57:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 22:58:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 22:58:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 22:58:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 22:59:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 22:59:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 22:59:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:00:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:00:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:00:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:01:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:01:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:01:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:02:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:02:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:02:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:03:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:03:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:03:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:04:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:04:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:04:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:05:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:05:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:05:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:06:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:06:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:06:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:07:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:07:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:07:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:08:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:08:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:08:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:09:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:09:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:09:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:10:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:10:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:10:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:11:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:11:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:11:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:12:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:12:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:12:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:13:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:13:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:13:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:14:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:14:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:14:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:15:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:15:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:15:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:16:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:16:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:16:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:17:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:17:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:17:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:18:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:18:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:18:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:19:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:19:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:19:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:20:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:20:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:20:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:21:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:21:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:21:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:22:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:22:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:22:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:23:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:23:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:23:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:24:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:24:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:24:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:25:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:25:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:25:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:26:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:26:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:26:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:27:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:27:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:27:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:28:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:28:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:28:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:29:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:29:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:29:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:30:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:30:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:30:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:31:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:31:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:31:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:32:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:32:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:32:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:33:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:33:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:33:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:34:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:34:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:34:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:35:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:35:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:35:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:36:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:36:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:36:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:37:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:37:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:37:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:38:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:38:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:38:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:39:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:39:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:39:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:40:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:40:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:40:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:41:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:41:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:41:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:42:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:42:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:42:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-11-30 23:43:36,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-11-30 23:43:36,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-11-30 23:43:36,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-04 16:38:26,Success,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-04 16:38:26,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-04 16:38:26,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 21:53:34,Success,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 21:53:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 21:53:34,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 21:54:34,Success,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 21:54:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 21:54:34,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 21:55:34,Success,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 21:55:35,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 21:55:35,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 21:56:34,Success,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 21:56:35,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 21:56:35,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 21:57:34,Success,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 21:57:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 21:57:34,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 21:58:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 21:58:35,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 21:58:35,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 21:59:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 21:59:35,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 21:59:35,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:00:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:00:35,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:00:35,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:01:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:01:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:01:34,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:02:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:02:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:02:34,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:03:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:03:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:03:34,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:04:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:04:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:04:34,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:05:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:05:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:05:34,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:06:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:06:35,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:06:35,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:07:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:07:34,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:07:34,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+1_0_1_1_0,2023-12-07 22:08:34,Failure,1,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-07 22:08:35,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-07 22:08:35,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:07:50,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:07:50,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:07:50,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:07:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:07:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:07:50,Success,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:07:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:07:50,Success,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:07:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:07:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:07:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:07:50,Success,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:08:50,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:08:50,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:08:50,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:08:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:08:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:08:50,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:08:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:08:50,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:08:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:08:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:08:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:08:50,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:09:50,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:09:50,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:09:50,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:09:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:09:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:09:50,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:09:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:09:50,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:09:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:09:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:09:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:09:50,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:10:50,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:10:50,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:10:50,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:10:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:10:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:10:50,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:10:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:10:50,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:10:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:10:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:10:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:10:50,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:11:50,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:11:50,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:11:50,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:11:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:11:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:11:50,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:11:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:11:50,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:11:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:11:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:11:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:11:50,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:12:50,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:12:50,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:12:50,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:12:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:12:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:12:50,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:12:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:12:50,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:12:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:12:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:12:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:12:50,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:13:50,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:13:50,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:13:50,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:13:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:13:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:13:50,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:13:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:13:50,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:13:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:13:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:13:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:13:50,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:14:50,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:14:50,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:14:50,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:14:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:14:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:14:50,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:14:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:14:50,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:14:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:14:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:14:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:14:50,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-08 06:15:50,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-08 06:15:50,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-08 06:15:50,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-08 06:15:50,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-08 06:15:50,Success,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-08 06:15:50,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-08 06:15:50,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-08 06:15:50,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-08 06:15:50,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-08 06:15:50,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-08 06:15:50,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-08 06:15:50,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:40:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:40:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:40:09,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:40:09,Success,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:40:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:40:09,Success,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:40:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:40:09,Success,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:40:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:40:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:40:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:40:09,Success,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:41:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:41:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:41:09,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:41:09,Success,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:41:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:41:09,Success,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:41:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:41:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:41:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:41:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:41:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:41:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:42:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:42:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:42:09,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:42:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:42:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:42:09,Success,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:42:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:42:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:42:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:42:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:42:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:42:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:43:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:43:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:43:09,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:43:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:43:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:43:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:43:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:43:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:43:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:43:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:43:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:43:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:44:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:44:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:44:09,Success,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:44:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:44:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:44:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:44:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:44:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:44:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:44:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:44:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:44:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:45:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:45:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:45:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:45:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:45:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:45:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:45:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:45:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:45:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:45:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:45:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:45:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:46:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:46:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:46:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:46:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:46:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:46:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:46:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:46:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:46:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:46:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:46:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:46:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:47:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:47:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:47:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:47:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:47:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:47:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:47:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:47:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:47:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:47:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:47:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:47:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:48:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:48:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:48:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:48:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:48:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:48:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:48:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:48:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:48:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:48:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:48:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:48:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:49:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:49:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:49:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:49:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:49:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:49:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:49:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:49:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:49:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:49:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:49:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:49:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:50:09,Success,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:50:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:50:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:50:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:50:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:50:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:50:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:50:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:50:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:50:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:50:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:50:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:51:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:51:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:51:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:51:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:51:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:51:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:51:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:51:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:51:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:51:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:51:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:51:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:52:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:52:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:52:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:52:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:52:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:52:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:52:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:52:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:52:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:52:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:52:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:52:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:53:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:53:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:53:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:53:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:53:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:53:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:53:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:53:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:53:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:53:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:53:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:53:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:54:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:54:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:54:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:54:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:54:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:54:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:54:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:54:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:54:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:54:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:54:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:54:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:55:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:55:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:55:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:55:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:55:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:55:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:55:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:55:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:55:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:55:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:55:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:55:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:56:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:56:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:56:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:56:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:56:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:56:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:56:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:56:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:56:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:56:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:56:09,Success,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:56:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:57:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:57:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:57:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:57:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:57:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:57:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:57:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:57:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:57:09,Success,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:57:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:57:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:57:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:58:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:58:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:58:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:58:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:58:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:58:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:58:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:58:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:58:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:58:09,Success,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:58:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:58:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 22:59:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 22:59:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 22:59:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 22:59:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 22:59:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 22:59:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 22:59:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 22:59:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 22:59:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 22:59:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 22:59:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 22:59:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:00:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:00:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:00:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:00:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:00:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:00:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:00:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:00:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:00:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:00:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:00:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:00:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:01:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:01:09,Success,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:01:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:01:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:01:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:01:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:01:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:01:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:01:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:01:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:01:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:01:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:02:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:02:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:02:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:02:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:02:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:02:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:02:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:02:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:02:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:02:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:02:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:02:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:03:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:03:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:03:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:03:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:03:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:03:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:03:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:03:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:03:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:03:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:03:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:03:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:04:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:04:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:04:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:04:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:04:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:04:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:04:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:04:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:04:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:04:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:04:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:04:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:05:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:05:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:05:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:05:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:05:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:05:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:05:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:05:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:05:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:05:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:05:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:05:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:06:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:06:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:06:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:06:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:06:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:06:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:06:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:06:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:06:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:06:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:06:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:06:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:07:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:07:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:07:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:07:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:07:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:07:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:07:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:07:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:07:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:07:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:07:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:07:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:08:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:08:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:08:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:08:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:08:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:08:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:08:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:08:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:08:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:08:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:08:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:08:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:09:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:09:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:09:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:09:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:09:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:09:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:09:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:09:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:09:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:09:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:09:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:09:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:10:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:10:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:10:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:10:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:10:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:10:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:10:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:10:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:10:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:10:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:10:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:10:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:11:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:11:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:11:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:11:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:11:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:11:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:11:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:11:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:11:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:11:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:11:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:11:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:12:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:12:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:12:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:12:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:12:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:12:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:12:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:12:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:12:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:12:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:12:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:12:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:13:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:13:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:13:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:13:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:13:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:13:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:13:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:13:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:13:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:13:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:13:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:13:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:14:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:14:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:14:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:14:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:14:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:14:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:14:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:14:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:14:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:14:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:14:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:14:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:15:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:15:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:15:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:15:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:15:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:15:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:15:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:15:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:15:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:15:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:15:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:15:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:16:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:16:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:16:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:16:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:16:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:16:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:16:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:16:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:16:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:16:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:16:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:16:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:17:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:17:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:17:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:17:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:17:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:17:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:17:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:17:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:17:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:17:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:17:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:17:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:18:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:18:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:18:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:18:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:18:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:18:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:18:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:18:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:18:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:18:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:18:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:18:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:19:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:19:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:19:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:19:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:19:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:19:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:19:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:19:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:19:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:19:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:19:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:19:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:20:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:20:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:20:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:20:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:20:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:20:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:20:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:20:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:20:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:20:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:20:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:20:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:21:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:21:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:21:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:21:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:21:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:21:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:21:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:21:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:21:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:21:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:21:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:21:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:22:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:22:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:22:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:22:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:22:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:22:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:22:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:22:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:22:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:22:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:22:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:22:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:23:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:23:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:23:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:23:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:23:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:23:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:23:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:23:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:23:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:23:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:23:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:23:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:24:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:24:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:24:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:24:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:24:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:24:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:24:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:24:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:24:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:24:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:24:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:24:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:25:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:25:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:25:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:25:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:25:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:25:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:25:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:25:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:25:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:25:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:25:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:25:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:26:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:26:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:26:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:26:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:26:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:26:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:26:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:26:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:26:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:26:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:26:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:26:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:27:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:27:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:27:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:27:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:27:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:27:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:27:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:27:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:27:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:27:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:27:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:27:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:28:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_1_0,2023-12-18 23:29:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_1_0,2023-12-18 23:30:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:30:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:30:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:30:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:30:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:31:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:31:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:31:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:31:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:31:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:31:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:31:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:31:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:31:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:31:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:31:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:31:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:32:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:32:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:32:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:32:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:32:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:32:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:32:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:32:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:32:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:32:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:32:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:32:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:33:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:33:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:33:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:33:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:33:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:33:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:33:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:33:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:33:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:33:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:33:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:33:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:34:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_1_0,2023-12-18 23:35:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:35:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:35:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:35:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:35:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:35:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:35:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:35:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:35:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:35:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:35:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:35:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:36:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:36:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:36:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:36:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:36:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:36:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:36:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:36:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:36:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:36:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:36:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:36:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:37:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:37:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:37:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:37:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:37:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:37:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:37:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:37:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:37:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:37:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:37:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:37:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:38:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:38:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:38:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:38:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:38:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:38:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:38:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:38:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:38:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:38:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:38:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:38:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:39:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:39:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:39:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:39:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:39:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:39:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:39:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:39:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:39:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:39:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:39:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:39:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:40:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:40:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:40:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:40:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:40:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:40:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:40:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:40:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:40:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:40:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:40:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:40:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:41:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_1_0,2023-12-18 23:42:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:42:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:42:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:42:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:42:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:42:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:42:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:42:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:42:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:42:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:42:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:42:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:43:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:43:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:43:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:43:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:43:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:43:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:43:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:43:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:43:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:43:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:43:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:43:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:44:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:44:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:44:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:44:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:44:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:44:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:44:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:44:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:44:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:44:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:44:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:44:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:45:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:45:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:45:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:45:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:45:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:45:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:45:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:45:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:45:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:45:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:45:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:45:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:46:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:46:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:46:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:46:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:46:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:46:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:46:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:46:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:46:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:46:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:46:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:46:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:47:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:47:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:47:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:47:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:47:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:47:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:47:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:47:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:47:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:47:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:47:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:47:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:48:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_1_0,2023-12-18 23:49:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:49:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:49:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:49:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:49:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:49:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:49:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:49:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:49:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:49:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:49:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:49:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:50:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:50:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:50:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:50:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:50:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:50:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:50:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:50:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:50:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:50:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:50:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:50:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:51:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:51:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:51:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:51:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:51:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:51:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:51:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:51:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:51:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:51:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:51:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:51:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:52:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:52:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:52:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:52:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:52:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:52:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:52:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:52:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:52:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:52:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:52:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:52:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:53:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:53:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:53:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:53:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:53:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:53:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:53:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:53:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:53:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:53:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:53:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:53:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:54:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:54:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:54:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:54:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:54:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:54:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:54:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:54:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:54:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:54:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:54:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:54:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:55:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:55:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:55:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:55:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:55:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:55:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:55:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:55:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:55:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:55:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:55:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:55:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:56:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:56:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:56:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:56:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:56:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:56:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:56:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:56:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:56:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:56:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:56:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:56:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:57:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:57:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:57:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:57:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:57:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:57:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:57:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:57:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:57:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:57:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:57:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:57:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:58:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:58:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:58:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:58:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:58:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:58:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:58:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:58:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:58:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:58:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:58:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:58:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-18 23:59:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-18 23:59:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-18 23:59:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-18 23:59:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-18 23:59:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-18 23:59:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-18 23:59:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-18 23:59:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-18 23:59:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-18 23:59:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-18 23:59:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-18 23:59:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:00:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:00:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:00:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:00:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:00:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:00:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:00:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:00:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:00:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:00:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:00:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:00:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:01:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:01:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:01:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:01:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:01:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:01:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:01:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:01:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:01:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:01:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:01:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:01:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:02:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:02:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:02:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:02:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:02:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:02:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:02:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:02:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:02:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:02:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:02:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:02:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:03:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:03:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:03:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:03:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:03:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:03:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:03:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:03:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:03:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:03:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:03:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:03:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:04:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:04:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:04:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:04:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:04:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:04:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:04:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:04:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:04:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:04:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:04:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:04:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:05:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:05:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:05:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:05:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:05:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:05:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:05:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:05:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:05:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:05:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:05:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:05:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:06:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:06:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:06:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:06:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:06:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:06:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:06:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:06:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:06:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:06:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:06:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:06:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:07:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:07:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:07:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:07:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:07:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:07:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:07:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:07:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:07:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:07:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:07:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:07:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:08:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:08:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:08:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:08:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:08:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:08:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:08:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:08:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:08:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:08:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:08:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:08:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:09:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:09:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:09:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:09:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:09:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:09:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:09:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:09:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:09:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:09:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:09:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:09:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:10:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:10:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:10:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:10:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:10:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:10:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:10:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:10:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:10:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:10:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:10:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:10:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:11:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:11:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:11:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:11:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:11:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:11:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:11:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:11:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:11:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:11:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:11:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:11:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:12:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:12:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:12:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:12:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:12:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:12:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:12:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:12:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:12:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:12:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:12:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:12:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:13:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:13:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:13:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:13:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:13:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:13:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:13:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:13:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:13:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:13:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:13:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:13:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:14:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:14:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:14:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:14:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:14:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:14:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:14:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:14:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:14:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:14:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:14:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:14:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:15:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:15:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:15:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:15:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:15:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:15:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:15:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:15:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:15:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:15:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:15:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:15:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:16:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:16:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:16:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:16:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:16:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:16:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:16:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:16:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:16:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:16:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:16:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:16:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:17:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:17:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:17:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:17:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:17:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:17:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:17:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:17:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:17:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:17:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:17:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:17:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:18:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:18:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:18:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:18:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:18:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:18:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:18:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:18:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:18:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:18:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:18:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:18:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:19:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:19:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:19:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:19:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:19:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:19:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:19:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:19:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:19:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:19:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:19:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:19:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:20:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:20:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:20:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:20:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:20:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:20:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:20:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:20:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:20:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:20:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:20:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:20:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:21:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:21:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:21:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:21:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:21:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:21:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:21:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:21:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:21:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:21:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:21:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:21:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:22:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_1_0,2023-12-19 00:23:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:23:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:23:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:23:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:23:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:23:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:23:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:23:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:23:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:23:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:23:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:23:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:24:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:24:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:24:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:24:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:24:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:24:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:24:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:24:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:24:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:24:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:24:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:24:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:25:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:25:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:25:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:25:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:25:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:25:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:25:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:25:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:25:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:25:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:25:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:25:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:26:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:26:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:26:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:26:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:26:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:26:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:26:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:26:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:26:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:26:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:26:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:26:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:27:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:27:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:27:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:27:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:27:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:27:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:27:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:27:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:27:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:27:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:27:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:27:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:28:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:28:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:28:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:28:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:28:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:28:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:28:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:28:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:28:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:28:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:28:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:28:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:29:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:29:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:29:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:29:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:29:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:29:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:29:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:29:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:29:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:29:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:29:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:29:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:30:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:30:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:30:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:30:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:30:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:30:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:30:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:30:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:30:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:30:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:30:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:30:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:31:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:31:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:31:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:31:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:31:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:31:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:31:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:31:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:31:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:31:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:31:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:31:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:32:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:32:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:32:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:32:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:32:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:32:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:32:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:32:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:32:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:32:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:32:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:32:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:33:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:33:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:33:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:33:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:33:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:33:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:33:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:33:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:33:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:33:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:33:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:33:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:34:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:34:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:34:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:34:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:34:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:34:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:34:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:34:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:34:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:34:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:34:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:34:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:35:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_1_0,2023-12-19 00:36:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:36:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:36:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:36:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:36:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:36:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:36:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:36:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:36:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:36:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:36:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:36:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:37:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:37:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:37:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:37:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:37:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:37:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:37:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:37:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:37:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:37:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:37:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:37:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:38:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:38:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:38:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:38:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:38:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:38:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:38:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:38:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:38:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:38:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:38:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:38:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:39:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:39:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:39:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:39:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:39:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:39:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:39:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:39:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:39:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:39:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:39:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:39:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:40:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:40:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:40:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:40:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:40:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:40:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:40:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:40:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:40:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:40:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:40:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:40:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:41:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:41:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:41:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:41:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:41:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:41:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:41:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:41:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:41:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:41:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:41:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:41:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:42:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:42:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:42:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:42:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:42:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:42:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:42:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:42:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:42:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:42:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:42:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:42:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_1_0,2023-12-19 00:43:09,Failure,0,0,1,1,0,850 H,0,Not Installed,Degrees C,Not Installed,0,75,0
+0_0_1_2_0,2023-12-19 00:43:09,Failure,0,0,1,2,0,850 PC,85,ppm (parts per million),Invalid,Invalid,24,21,241
+0_0_1_3_0,2023-12-19 00:43:09,Failure,0,0,1,3,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_4_0,2023-12-19 00:43:09,Failure,0,0,1,4,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_5_0,2023-12-19 00:43:09,Failure,0,0,1,5,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_6_0,2023-12-19 00:43:09,Failure,0,0,1,6,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_7_0,2023-12-19 00:43:09,Failure,0,0,1,7,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_8_0,2023-12-19 00:43:09,Failure,0,0,1,8,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_9_0,2023-12-19 00:43:09,Failure,0,0,1,9,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_10_0,2023-12-19 00:43:09,Failure,0,0,1,10,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_11_0,2023-12-19 00:43:09,Failure,0,0,1,11,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
+0_0_1_12_0,2023-12-19 00:43:09,Failure,0,0,1,12,0,840 PH,73,%/m obscuration,Invalid,Invalid,144,110,66
