@@ -141,7 +141,7 @@ class BlackboxToDB:
         
         # create connection string
         # conn_string = "postgresql://{0}:{1}@{2}:5432/{3}?sslmode=require".format(self.user, self.password, self.host, self.dbname)
-        conn_string = f"postgresql://{self.user}:{self.password}@{self.host}:5432/{self.dbname}?sslmode=require"
+        conn_string = f"postgresql://{self.user}:{self.password}@{self.host}:5432/{self.dbname}"
         
         # create engine
         engine = create_engine(conn_string)

@@ -1,7 +1,6 @@
 import pandas as pd
 from datetime import datetime
 import random
-import time
 from clock import Clock
 import csv
 import json
@@ -195,8 +194,9 @@ def main():
     simulator = FakeDeviceSimulator()
     simulator.load_devices()
     simulator.logfile_exist()
+    simulator.update_device()
     while True:
-        if clock.time_elapsed(5):
+        if clock.time_elapsed(60):
             simulator.update_device()
         
 if __name__ == "__main__":

@@ -11,15 +11,16 @@ import pandas as pd
 
 ### to start server: "python -m uvicorn backend:app --reload" ###
 ## Don't press the play button in the top right corner, it will not work ##
-user = "jacharku"
+user = "postgres"
 password = "TestServer123"
-tablename = "sqa13-09-23"
-host = "test-jacharku.postgres.database.azure.com"
+tablename = "sim30-11-23"
+host = "localhost"
 port = "5432"
-dbname = "testing"
-sslmode = "require"
+dbname = "Devices"
+# sslmode = "require"
 
-DATABASE_URL = f"postgresql://{user}:{password}@{host}:{port}/{dbname}?sslmode={sslmode}"
+# DATABASE_URL = f"postgresql://{user}:{password}@{host}:{port}/{dbname}?sslmode={sslmode}"
+DATABASE_URL = f"postgresql://{user}:{password}@{host}:{port}/{dbname}"
 
 engine = sqlalchemy.create_engine(DATABASE_URL)
 

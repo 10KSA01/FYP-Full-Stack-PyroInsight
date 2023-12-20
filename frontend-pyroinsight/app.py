@@ -6,9 +6,6 @@ from components.sidebar import get_sidebar
 from components.statistic_card import get_statistic_card
 from components.other import *
 
-# To run the app:
-# python -m uvicorn app:app --reload
-
 icons = ["bi bi-house-fill", "bi bi-motherboard-fill", "bi bi-person-lines-fill", "bi bi-box-arrow-right"]
 descriptions = ["Main Dashboard", "Device Dashboard", "Profile", "Logout"]
 
