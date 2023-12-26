@@ -18,6 +18,17 @@ def failure():
     except Exception as e:
         print("Error:", e)
         return "Error fetching data"
+    
+def average_obscuration():
+    try:
+        # Fetch data from an API
+        response = requests.get("http://127.0.0.1:8000/average-obscuration/0/")
+        data = response.json()
+
+        return str(data)
+    except Exception as e:
+        print("Error:", e)
+        return "Error fetching data"
 
 layout = dbc.Card(
     dbc.CardBody(
@@ -42,7 +53,7 @@ layout = dbc.Card(
                 [
                     # dcc.Interval(id='interval', interval=1000 * 10, n_intervals=0),
                     dbc.Col([get_statistic_card("Failed devices", failure())], width=4),
-                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
+                    dbc.Col([get_statistic_card("Average Obscuration", average_obscuration())], width=4),
                     dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
                 ],
                 align="center",    

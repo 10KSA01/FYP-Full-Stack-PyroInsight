@@ -5,7 +5,7 @@
     "password": "TestServer123",
     "tablename": "sim30-11-23",
     "find_log_file_path": "FYP-Full-Stack-PyroInsight\\fake-device-simulator\\logfile.csv",
-    "timestamp": "2023-12-19 00:43:09",
+    "timestamp": "2023-12-26 01:57:07",
     "cooldown": 10,
     "save_local_file_path": "FYP-Full-Stack-PyroInsight\\blackbox-db\\backup\\sim30-11-23.csv",
     "save_local": true,

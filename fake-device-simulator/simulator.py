@@ -100,6 +100,17 @@ class FakeDeviceSimulator:
     def set_counter(self, new_counter):
         self.counter = new_counter
 
+    def save_counter(self):
+        with open(self.find_config(), 'r') as config_file:
+            config_data = json.load(config_file)
+        
+        # Update the "counter" value in the JSON data     
+        config_data["counter"] = self.get_counter()
+        
+        # Write the updated JSON data back to the config.json file
+        with open(self.find_config(), 'w') as config_file:
+            config_file.write(json.dumps(config_data, indent=4))
+
     ## Random failures ##
     def rand_failure_reply_status(self):
         return random.randint(4,7)
@@ -152,24 +163,32 @@ class FakeDeviceSimulator:
     
     def update_type_value(self, index):
         rand_num = 5
-        value = ""
+        value1 = ""
+        value2 = ""
 
+        if self.check_device_type(index) == "H":
+            value1 = self.devices.iloc[index, 29]
+        elif self.check_device_type(index) == "P":
+            value1 = self.devices.iloc[index, 29]
+        elif self.check_device_type(index) == "PC":
+            value1 = self.devices.iloc[index, 30] 
+        elif self.check_device_type(index) == "PH":
+            value1 = self.devices.iloc[index, 31]
+
+        if int(value1) < 255:
+            if self.rand_ten() == rand_num:
+                if int(value1) > 0:
+                    if random.choice([True, False]) == True:
+                        value1 = str(int(value1) + 1)
+                    else:
+                        value1 = str(int(value1) + 1)
+        
         if self.check_device_type(index) == "H":
             value = self.devices.iloc[index, 29]
         elif self.check_device_type(index) == "PC":
             value = self.devices.iloc[index, 30] 
         elif self.check_device_type(index) == "PH":
             value = self.devices.iloc[index, 31]
-
-        if int(value) < 255:
-            if self.rand_ten() == rand_num:
-                if int(value) > 0:
-                    if random.choice([True, False]) == True:
-                        value = str(int(value) + 1)
-                    else:
-                        value = str(int(value) + 1)
-                else:
-                    value = str(int(value) + 1)
 
     def update_device(self):
         for index, device in self.devices.iterrows():
@@ -187,6 +206,8 @@ class FakeDeviceSimulator:
                 # Write the new row to the CSV file
                 csv_writer.writerow(device)
 
+            self.devices.to_csv(self.find_devices_file_path, index=False)
+            
         print("Devices simulated \n")
 
 def main():
@@ -197,7 +218,9 @@ def main():
     simulator.update_device()
     while True:
         if clock.time_elapsed(60):
+            simulator.load_devices()
             simulator.update_device()
+            print(simulator.get_counter())
         
 if __name__ == "__main__":
     main()
