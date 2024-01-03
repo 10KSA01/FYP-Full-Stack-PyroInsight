@@ -19,7 +19,7 @@ layout = dbc.Card(
             ),
             dbc.Row(
                 [
-                    dbc.Col([panel_status_line_graph()], width=6),
+                    dbc.Col([panel_obscuration_line_graph()], width=6),
                     dbc.Col([dfgraph()], width=6),
                 ],
                 align="center",    

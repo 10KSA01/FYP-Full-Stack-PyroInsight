@@ -11,6 +11,7 @@ import pandas as pd
 from fastapi import HTTPException
 import logging
 import traceback
+from typing import Dict, Union, List
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +19,7 @@ logger = logging.getLogger(__name__)
 ## Don't press the play button in the top right corner, it will not work ##
 user = "postgres"
 password = "TestServer123"
-tablename = "sim30-11-23"
+tablename = "sim01-01-24"
 host = "localhost"
 port = "5432"
 dbname = "Devices"
@@ -225,7 +226,7 @@ async def get_average_obscuration(node: int):
         logger.error(f"Error: {e}")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
 
-@app.get("/average-obscuration-period/{node}/", response_model=List[float], status_code=status.HTTP_200_OK)
+@app.get("/average-obscuration-period/{node}/", response_model=List[Dict[str, Union[float, str]]], status_code=status.HTTP_200_OK)
 async def get_average_obscuration(node: int):
     try:
         # Get the timestamp of the first entry
@@ -238,11 +239,13 @@ async def get_average_obscuration(node: int):
 
         # Query for average obscuration over the time period
         query = (
-            select([func.avg(data.c.converted_value1).label('average')])
+            select([func.avg(data.c.converted_value1).label('average'), data.c.datetime])
             .where(data.c.node == node)
             .where(data.c.units_of_measure1 == "%/m obscuration")
             .where(data.c.datetime >= start_time)
             .where(data.c.datetime <= end_time)
+            .group_by(data.c.datetime)
+            .order_by(data.c.datetime)
         )
 
         result = await database.fetch_all(query)
@@ -250,41 +253,10 @@ async def get_average_obscuration(node: int):
         if result is None:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
 
-        return [float(r['average']) for r in result]
+        return [{"obscuration": float(r['average']), "datetime": str(r['datetime'])} for r in result]
     except Exception as e:
         logger.error(f"Error: {e}")
         logger.error(traceback.format_exc())
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
-
-# @app.get("/average-obscuration-period/{node}/", response_model=List[float], status_code=status.HTTP_200_OK)
-# async def get_average_obscuration(node: int):
-#     try:
-#         # Get the timestamp of the first entry
-#         first_entry_query = select([data.c.datetime]).where(data.c.node == node).order_by(data.c.datetime).limit(1)
-#         start_time = await database.fetch_one(first_entry_query)
-#         # start_time = datetime.strptime(first_entry_result[0], "%Y-%m-%d %H:%M:%S")
-
-#         # Get the current timestamp
-#         end_time = datetime.now()
-
-#         # Query for average obscuration over the time period
-#         query = (
-#             select([func.avg(data.c.converted_value1).label('average')])
-#             .where(data.c.node == node)
-#             .where(data.c.units_of_measure1 == "%/m obscuration")
-#             .where(data.c.datetime >= start_time)
-#             .where(data.c.datetime <= end_time)
-#         )
-
-#         result = await database.fetch_all(query)
-
-#         if result is None:
-#             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
-
-#         return [float(r['average']) for r in result]
-#     except Exception as e:
-#         logger.error(f"Error: {e}")
-#         logger.error(traceback.format_exc())  # Add this line
-#         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
 
 

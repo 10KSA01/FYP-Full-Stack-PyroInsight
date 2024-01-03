@@ -94,18 +94,16 @@ class FakeDeviceSimulator:
         # Format the current datetime as a string in the desired format
         return current_datetime.strftime("%a %b %d %H:%M:%S %Y")
 
-    def get_counter(self):
-        return self.counter
-
     def set_counter(self, new_counter):
         self.counter = new_counter
+        self.save_counter()
 
     def save_counter(self):
         with open(self.find_config(), 'r') as config_file:
             config_data = json.load(config_file)
         
         # Update the "counter" value in the JSON data     
-        config_data["counter"] = self.get_counter()
+        config_data["counter"] = self.counter
         
         # Write the updated JSON data back to the config.json file
         with open(self.find_config(), 'w') as config_file:
@@ -128,21 +126,31 @@ class FakeDeviceSimulator:
         return random.randint(1,255)
 
     def rand_failures(self, index):
-        if self.get_counter() % self.rand_failure_reply_status() == 0:
-            self.devices.iloc[index, 1] = "Failure"
+        if self.counter % self.rand_failure_reply_status() == 0:
+            self.devices.iat[index, 1] = "Failure"
+        else:
+            self.devices.iat[index, 1] = "Success"
 
-        if self.get_counter() % self.rand_failure_flags() == 0:
-            self.devices.iloc[index, 2] = "Loop Fault"
+        if self.counter % self.rand_failure_flags() == 0:
+            self.devices.iat[index, 2] = "Loop Fault"
+        else:
+            self.devices.iat[index, 2] = "None"        
 
-        if self.get_counter() % self.rand_failure_instantaneous_fault_state() == 0:
-            self.devices.iloc[index, 33] = str(self.rand_failure_instantaneous_fault_state())
+        if self.counter % self.rand_failure_instantaneous_fault_state() == 0:
+            self.devices.iat[index, 33] = str(self.rand_failure_instantaneous_fault_state())
+        else:
+            self.devices.iat[index, 33] = "0"
 
-        if self.get_counter() % self.rand_failure_confirmed_fault_state() == 0:
-            self.devices.iloc[index, 35] = str(self.rand_failure_confirmed_fault_state())
+        if self.counter % self.rand_failure_confirmed_fault_state() == 0:
+            self.devices.iat[index, 35] = str(self.rand_failure_confirmed_fault_state())
+        else:
+            self.devices.iat[index, 35] = "0"
 
-        if self.get_counter() % self.rand_failure_acknowledged_fault_state() == 0:
-            self.devices.iloc[index, 37] = str(self.rand_failure_acknowledged_fault_state())
-
+        if self.counter % self.rand_failure_acknowledged_fault_state() == 0:
+            self.devices.iat[index, 37] = str(self.rand_failure_acknowledged_fault_state())
+        else:
+            self.devices.iat[index, 37] = "0"
+            
     def rand_hundred(self):
         return random.randint(1,101)
     
@@ -152,52 +160,79 @@ class FakeDeviceSimulator:
     def update_dirtiness(self, index):
         # can change rand_num to any number between 1-100, so if rand_dirtiness() is equal to rand_num then increase the dirtiness
         rand_num = 50
-        dev_dirtiness = self.devices.iloc[index, 25] 
-        if int(dev_dirtiness) < 255:
+        dirtiness = self.devices.iat[index, 25] 
+        if int(dirtiness) < 255:
             if self.rand_hundred() == rand_num:
-                dev_dirtiness = str(int(dev_dirtiness) + 1)
+                dirtiness = str(int(dirtiness) + 1)
     
     def check_device_type(self, index):
-        device_type = self.devices.iloc[index, 10].split()
+        device_type = self.devices.iat[index, 10].split()
         return device_type[1]
     
     def update_type_value(self, index):
         rand_num = 5
-        value1 = ""
-        value2 = ""
+        heat = ""
+        smoke = ""
+        co = "" # Carbon Monoxide
+        device_type = self.check_device_type(index)
 
-        if self.check_device_type(index) == "H":
-            value1 = self.devices.iloc[index, 29]
-        elif self.check_device_type(index) == "P":
-            value1 = self.devices.iloc[index, 29]
-        elif self.check_device_type(index) == "PC":
-            value1 = self.devices.iloc[index, 30] 
-        elif self.check_device_type(index) == "PH":
-            value1 = self.devices.iloc[index, 31]
+        if device_type == "P":
+            smoke = self.devices.iat[index, 29]
+        elif device_type == "H":
+            heat = self.devices.iat[index, 30]
+        elif device_type == "PH":
+            smoke = self.devices.iat[index, 29]
+            heat = self.devices.iat[index, 30]
+        elif device_type == "PC":
+            smoke = self.devices.iat[index, 29]
+            heat = self.devices.iat[index, 30]
+            co = self.devices.iat[index, 31]
 
-        if int(value1) < 255:
-            if self.rand_ten() == rand_num:
-                if int(value1) > 0:
-                    if random.choice([True, False]) == True:
-                        value1 = str(int(value1) + 1)
+        if smoke != "":
+            if int(smoke) < 255:
+                if self.rand_ten() == rand_num:
+                    if int(smoke) > 0:
+                        if random.choice([True, False]) == True:
+                            smoke = str(int(smoke) + 1)
+                        else:
+                            smoke = str(int(smoke) - 1)
                     else:
-                        value1 = str(int(value1) + 1)
+                        smoke = str(int(smoke) + 1)
+                    self.devices.iat[index, 29] = smoke
+
+        if heat != "":
+            if int(heat) < 255:
+                if self.rand_ten() == rand_num:
+                    if int(heat) > 0:
+                        if random.choice([True, False]) == True:
+                            heat = str(int(heat) + 1)
+                        else:
+                            heat = str(int(heat) - 1)
+                    else:
+                        heat = str(int(heat) + 1)
+                    self.devices.iat[index, 30] = heat
+
+        if co != "":
+            if int(co) < 255:
+                if self.rand_ten() == rand_num:
+                    if int(co) > 0:
+                        if random.choice([True, False]) == True:
+                            co = str(int(co) + 1)
+                        else:
+                            co = str(int(co) - 1)
+                    else:
+                        co = str(int(co) + 1)
+                    self.devices.iat[index, 31] = co
         
-        if self.check_device_type(index) == "H":
-            value = self.devices.iloc[index, 29]
-        elif self.check_device_type(index) == "PC":
-            value = self.devices.iloc[index, 30] 
-        elif self.check_device_type(index) == "PH":
-            value = self.devices.iloc[index, 31]
 
     def update_device(self):
         for index, device in self.devices.iterrows():
-            self.devices.iloc[index, 0] = self.current_time()
+            self.devices.iat[index, 0] = self.current_time()
             self.rand_failures(index)
             self.update_dirtiness(index)
             self.update_type_value(index)
             
-            self.set_counter(self.get_counter() + 1)
+            self.set_counter(self.counter + 1)
 
             with open(self.find_log_file_path, 'a', newline='') as file:
             # Create a CSV writer
@@ -216,11 +251,12 @@ def main():
     simulator.load_devices()
     simulator.logfile_exist()
     simulator.update_device()
+    #print(simulator.counter)
     while True:
         if clock.time_elapsed(60):
             simulator.load_devices()
             simulator.update_device()
-            print(simulator.get_counter())
+            print(simulator.counter)
         
 if __name__ == "__main__":
     main()
