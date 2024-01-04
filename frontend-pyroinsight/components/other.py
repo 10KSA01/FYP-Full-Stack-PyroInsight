@@ -59,11 +59,11 @@ def panel_obscuration_line_graph():
                             dcc.Graph(
                                 figure = {
                                     'data': [
-                                        {'x': datetime, 'y': obscuration, 'mode': 'lines+markers', 'name': 'Line Plot'}
+                                        {'x': datetime, 'y': obscuration, 'mode': 'lines'}
                                     ],
                                     'layout': {
                                         'title': 'Obscuration',
-                                        'xaxis': {'title': 'Datetime'},
+                                        'xaxis': {'title': 'Datetime', 'tickformat': '%Y-%m-%d', 'nticks': 10},
                                         'yaxis': {'title': 'Obscuration'}
                                     }
                                 }                                
