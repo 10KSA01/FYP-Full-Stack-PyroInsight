@@ -367,3 +367,49 @@ async def get_average_co_period(node: int):
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
 
 
+# Smoke - %/m obscuration
+@app.get("/average-{type}/{node}/", response_model=float, status_code=status.HTTP_200_OK)
+async def get_average_obscuration(node: int, type: str):
+    units_of_measure_columns = {
+        "smoke": data.c.units_of_measure1,
+        "heat": data.c.units_of_measure2,
+        "co": data.c.units_of_measure3,
+    }
+
+    if type not in units_of_measure_columns:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid type: {type}")
+
+    unit_of_measure_column = units_of_measure_columns[type]
+
+    value_of_measure_columns = {
+        "smoke": data.c.converted_value1,
+        "heat": data.c.converted_value2,
+        "co": data.c.converted_value3,
+    }
+
+    value_of_measure_column = value_of_measure_columns[type]
+
+    type_of_measure_columns = {
+        "smoke": "%/m obscuration",
+        "heat": "Degrees C",
+        "co": "ppm (parts per million)",
+    }
+
+    type_of_measure_column = type_of_measure_columns[type]
+
+    try:
+        query = (
+            select([func.avg(data.c.value_of_measure_column).label('average')])
+            .where(data.c.node == node)
+            .where(unit_of_measure_column == type_of_measure_column)
+        )
+
+        result = await database.fetch_one(query)
+
+        if result is None:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
+
+        return float(result['average'])
+    except Exception as e:
+        logger.error(f"Error: {e}")
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
