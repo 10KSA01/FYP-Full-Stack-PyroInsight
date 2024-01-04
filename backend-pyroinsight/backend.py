@@ -106,7 +106,7 @@ async def read_device_data(id: str):
 
     return result
 
-@app.get("/device/{id}/latest", response_model=List[Data], status_code=status.HTTP_200_OK)
+@app.get("/device/{id}/latest/", response_model=List[Data], status_code=status.HTTP_200_OK)
 async def read_latest_device_data(id: str):
     subquery = (
         select([func.max(data.c.datetime).label("latest_datetime")])
@@ -136,7 +136,7 @@ async def read_panel_data(node: int):
 
     return result
 
-@app.get("/latest-panel/{node}/", response_model=List[Data], status_code=status.HTTP_200_OK)
+@app.get("/panel/{node}/latest/", response_model=List[Data], status_code=status.HTTP_200_OK)
 async def read_latest_panel_data(node: int):
     try:
         subquery = (
@@ -165,7 +165,7 @@ async def read_latest_panel_data(node: int):
         return JSONResponse(content={"message": "Internal server error."}, status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 # Shows all the nodes in the database
-@app.get("/nodes", response_model=List[int])
+@app.get("/nodes/", response_model=List[int])
 async def get_nodes():
     query = select(distinct(data.c.node))
     result = await database.fetch_all(query)
@@ -207,201 +207,25 @@ async def fetch_data(node: int):
 
     return await database.fetch_all(query)
 
-# Smoke - %/m obscuration
-@app.get("/average-obscuration/{node}/", response_model=float, status_code=status.HTTP_200_OK)
-async def get_average_obscuration(node: int):
-    try:
-        query = (
-            select([func.avg(data.c.converted_value1).label('average')])
-            .where(data.c.node == node)
-            .where(data.c.units_of_measure1 == "%/m obscuration")
-        )
-
-        result = await database.fetch_one(query)
-
-        if result is None:
-            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
-
-        return float(result['average'])
-    except Exception as e:
-        logger.error(f"Error: {e}")
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
-
-@app.get("/average-obscuration-period/{node}/", response_model=List[Dict[str, Union[float, str]]], status_code=status.HTTP_200_OK)
-async def get_average_obscuration_period(node: int):
-    try:
-        # Get the timestamp of the first entry
-        first_entry_query = select([data.c.datetime]).where(data.c.node == node).order_by(data.c.datetime).limit(1)
-        first_entry_result = await database.fetch_one(first_entry_query)
-        start_time = first_entry_result[0]  # assign the datetime directly
-
-        # Get the current timestamp
-        end_time = datetime.now()
-
-        # Query for average obscuration over the time period
-        query = (
-            select([func.avg(data.c.converted_value1).label('average'), func.to_char(data.c.datetime, text("'Dy Mon DD HH24:MI YYYY'")).label('formatted_datetime')])
-            .where(data.c.node == node)
-            .where(data.c.units_of_measure1 == "%/m obscuration")
-            .where(data.c.datetime >= start_time)
-            .where(data.c.datetime <= end_time)
-            .group_by(text("formatted_datetime"))
-            .order_by(text("formatted_datetime"))
-        )
-
-        result = await database.fetch_all(query)
-
-        if result is None:
-            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
-
-        return [{"obscuration": float(r['average']), "datetime": str(r['formatted_datetime'])} for r in result]
-    except Exception as e:
-        logger.error(f"Error: {e}")
-        logger.error(traceback.format_exc())
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
-
-# Heat - Degrees C
-@app.get("/average-heat/{node}/", response_model=float, status_code=status.HTTP_200_OK)
-async def get_average_heat(node: int):
-    try:
-        query = (
-            select([func.avg(data.c.converted_value2).label('average')])
-            .where(data.c.node == node)
-            .where(data.c.units_of_measure2 == "Degrees C")
-        )
-
-        result = await database.fetch_one(query)
-
-        if result is None:
-            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
-
-        return float(result['average'])
-    except Exception as e:
-        logger.error(f"Error: {e}")
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
-
-@app.get("/average-heat-period/{node}/", response_model=List[Dict[str, Union[float, str]]], status_code=status.HTTP_200_OK)
-async def get_average_heat_period(node: int):
-    try:
-        # Get the timestamp of the first entry
-        first_entry_query = select([data.c.datetime]).where(data.c.node == node).order_by(data.c.datetime).limit(1)
-        first_entry_result = await database.fetch_one(first_entry_query)
-        start_time = first_entry_result[0]  # assign the datetime directly
-
-        # Get the current timestamp
-        end_time = datetime.now()
-
-        # Query for average heat over the time period
-        query = (
-            select([func.avg(data.c.converted_value2).label('average'), func.to_char(data.c.datetime, text("'Dy Mon DD HH24:MI YYYY'")).label('formatted_datetime')])
-            .where(data.c.node == node)
-            .where(data.c.units_of_measure2 == "Degrees C")
-            .where(data.c.datetime >= start_time)
-            .where(data.c.datetime <= end_time)
-            .group_by(text("formatted_datetime"))
-            .order_by(text("formatted_datetime"))
-        )
-
-        result = await database.fetch_all(query)
-
-        if result is None:
-            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
-
-        return [{"heat": float(r['average']), "datetime": str(r['formatted_datetime'])} for r in result]
-    except Exception as e:
-        logger.error(f"Error: {e}")
-        logger.error(traceback.format_exc())
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
-
-# CO - ppm (parts per million)
-@app.get("/average-co/{node}/", response_model=float, status_code=status.HTTP_200_OK)
-async def get_average_co(node: int):
-    try:
-        query = (
-            select([func.avg(data.c.converted_value3).label('average')])
-            .where(data.c.node == node)
-            .where(data.c.units_of_measure3 == "ppm (parts per million)")
-        )
-
-        result = await database.fetch_one(query)
-
-        if result is None:
-            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
-
-        return float(result['average'])
-    except Exception as e:
-        logger.error(f"Error: {e}")
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
-
-@app.get("/average_co-period/{node}/", response_model=List[Dict[str, Union[float, str]]], status_code=status.HTTP_200_OK)
-async def get_average_co_period(node: int):
-    try:
-        # Get the timestamp of the first entry
-        first_entry_query = select([data.c.datetime]).where(data.c.node == node).order_by(data.c.datetime).limit(1)
-        first_entry_result = await database.fetch_one(first_entry_query)
-        start_time = first_entry_result[0]  # assign the datetime directly
-
-        # Get the current timestamp
-        end_time = datetime.now()
-
-        # Query for average heat over the time period
-        query = (
-            select([func.avg(data.c.converted_value3).label('average'), func.to_char(data.c.datetime, text("'Dy Mon DD HH24:MI YYYY'")).label('formatted_datetime')])
-            .where(data.c.node == node)
-            .where(data.c.units_of_measure3 == "ppm (parts per million)")
-            .where(data.c.datetime >= start_time)
-            .where(data.c.datetime <= end_time)
-            .group_by(text("formatted_datetime"))
-            .order_by(text("formatted_datetime"))
-        )
-
-        result = await database.fetch_all(query)
-
-        if result is None:
-            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
-
-        return [{"co": float(r['average']), "datetime": str(r['formatted_datetime'])} for r in result]
-    except Exception as e:
-        logger.error(f"Error: {e}")
-        logger.error(traceback.format_exc())
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
-
-
-# Smoke - %/m obscuration
-@app.get("/average-{type}/{node}/", response_model=float, status_code=status.HTTP_200_OK)
+@app.get("/average/{type}/{node}/", response_model=float, status_code=status.HTTP_200_OK)
 async def get_average_obscuration(node: int, type: str):
-    units_of_measure_columns = {
-        "smoke": data.c.units_of_measure1,
-        "heat": data.c.units_of_measure2,
-        "co": data.c.units_of_measure3,
+    
+    measure_columns = {
+        "smoke": (data.c.units_of_measure1, data.c.converted_value1, "%/m obscuration"),
+        "heat": (data.c.units_of_measure2, data.c.converted_value2, "Degrees C"),
+        "co": (data.c.units_of_measure3, data.c.converted_value3, "ppm (parts per million)"),
     }
 
-    if type not in units_of_measure_columns:
+    if type not in measure_columns:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid type: {type}")
 
-    unit_of_measure_column = units_of_measure_columns[type]
-
-    value_of_measure_columns = {
-        "smoke": data.c.converted_value1,
-        "heat": data.c.converted_value2,
-        "co": data.c.converted_value3,
-    }
-
-    value_of_measure_column = value_of_measure_columns[type]
-
-    type_of_measure_columns = {
-        "smoke": "%/m obscuration",
-        "heat": "Degrees C",
-        "co": "ppm (parts per million)",
-    }
-
-    type_of_measure_column = type_of_measure_columns[type]
+    unit_of_measure_column, value_of_measure_column, type_of_measure = measure_columns[type]
 
     try:
         query = (
-            select([func.avg(data.c.value_of_measure_column).label('average')])
+            select([func.avg(value_of_measure_column).label('average')])
             .where(data.c.node == node)
-            .where(unit_of_measure_column == type_of_measure_column)
+            .where(unit_of_measure_column == type_of_measure)
         )
 
         result = await database.fetch_one(query)
@@ -412,4 +236,63 @@ async def get_average_obscuration(node: int, type: str):
         return float(result['average'])
     except Exception as e:
         logger.error(f"Error: {e}")
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
+    
+
+@app.get("/average/{type}/{node}/period", response_model=List[Dict[str, Union[float, str]]], status_code=status.HTTP_200_OK)
+async def get_average_co_period(node: int, type:str):
+    # http://127.0.0.1:8000/average/heat/0/period
+    measure_columns = {
+        "smoke": (data.c.units_of_measure1, data.c.converted_value1, "%/m obscuration"),
+        "heat": (data.c.units_of_measure2, data.c.converted_value2, "Degrees C"),
+        "co": (data.c.units_of_measure3, data.c.converted_value3, "ppm (parts per million)"),
+        "dirtiness": (data.c.dirtiness, None, None)
+    }
+
+    if type not in measure_columns:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid type: {type}")
+
+    if type == "dirtiness":
+        unit_of_measure_column = measure_columns[type]
+    else:
+        unit_of_measure_column, value_of_measure_column, type_of_measure = measure_columns[type]
+    try:
+        # Get the timestamp of the first entry
+        first_entry_query = select([data.c.datetime]).where(data.c.node == node).order_by(data.c.datetime).limit(1)
+        first_entry_result = await database.fetch_one(first_entry_query)
+        start_time = first_entry_result[0]  # assign the datetime directly
+
+        # Get the current timestamp
+        end_time = datetime.now()
+
+        # Query for average heat over the time period
+        if type == "dirtiness":
+            query = (
+                select([func.avg(data.c.dirtiness).label('average'), func.to_char(data.c.datetime, text("'Dy Mon DD HH24:MI YYYY'")).label('formatted_datetime')])
+                .where(data.c.node == node)
+                .where(data.c.datetime >= start_time)
+                .where(data.c.datetime <= end_time)
+                .group_by(text("formatted_datetime"))
+                .order_by(text("formatted_datetime"))
+            )
+        else:
+            query = (
+                select([func.avg(value_of_measure_column).label('average'), func.to_char(data.c.datetime, text("'Dy Mon DD HH24:MI YYYY'")).label('formatted_datetime')])
+                .where(data.c.node == node)
+                .where(unit_of_measure_column == type_of_measure)
+                .where(data.c.datetime >= start_time)
+                .where(data.c.datetime <= end_time)
+                .group_by(text("formatted_datetime"))
+                .order_by(text("formatted_datetime"))
+            )
+
+        result = await database.fetch_all(query)
+
+        if result is None:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
+
+        return [{type: float(r['average']), "datetime": str(r['formatted_datetime'])} for r in result]
+    except Exception as e:
+        logger.error(f"Error: {e}")
+        logger.error(traceback.format_exc())
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
