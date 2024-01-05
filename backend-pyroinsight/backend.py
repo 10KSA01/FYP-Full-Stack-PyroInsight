@@ -1,7 +1,7 @@
 from typing import List
 import databases
 import sqlalchemy
-from sqlalchemy import select, func, and_, distinct, desc, text
+from sqlalchemy import select, func, and_, distinct, desc, text, cast, DateTime, or_
 from fastapi import FastAPI, status, Request, Path
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -11,8 +11,7 @@ import pandas as pd
 from fastapi import HTTPException
 import logging
 import traceback
-from typing import Dict, Union, List
-from sqlalchemy import text
+from typing import Dict, Union, List 
 
 logger = logging.getLogger(__name__)
 
@@ -20,7 +19,7 @@ logger = logging.getLogger(__name__)
 ## Don't press the play button in the top right corner, it will not work ##
 user = "postgres"
 password = "TestServer123"
-tablename = "sim01-01-24"
+tablename = "sim05-01-24"
 host = "localhost"
 port = "5432"
 dbname = "Devices"
@@ -62,7 +61,9 @@ class Data(BaseModel):
     converted_value1: int
     converted_value2: int
     converted_value3: int
-
+    instantaneous_fault_state: int
+    confirmed_fault_state: int
+    acknowledged_fault_state: int
 
 app = FastAPI(title = "REST API using FastAPI PostgreSQL Async EndPoints")
 app.add_middleware(
@@ -81,11 +82,6 @@ async def startup():
 async def shutdown():
     await database.disconnect()
 
-@app.get("/all_device", response_model=List[Data], status_code = status.HTTP_200_OK)
-async def read_data():
-    query = data.select()
-    return await database.fetch_all(query)
-
 @app.get("/data/", response_model=List[Data], status_code=status.HTTP_200_OK)
 async def read_data(request: Request, page: int = 0):
     items_per_page = 50
@@ -95,6 +91,11 @@ async def read_data(request: Request, page: int = 0):
     query = data.select().offset(skip).limit(take)
     result = await database.fetch_all(query)
     return result
+
+@app.get("/device/all/", response_model=List[Data], status_code = status.HTTP_200_OK)
+async def read_data():
+    query = data.select()
+    return await database.fetch_all(query)
 
 @app.get("/device/{id}/", response_model=List[Data], status_code=status.HTTP_200_OK)
 async def read_device_data(id: str):
@@ -130,7 +131,7 @@ async def read_latest_device_data(id: str):
 async def read_panel_data(node: int):
     query = data.select().where(data.c.node == node)
     result = await database.fetch_all(query)
-
+    print(result)
     if not result:
         return JSONResponse(content={"message": "No data found for the given id."}, status_code=status.HTTP_404_NOT_FOUND)
 
@@ -165,7 +166,7 @@ async def read_latest_panel_data(node: int):
         return JSONResponse(content={"message": "Internal server error."}, status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 # Shows all the nodes in the database
-@app.get("/nodes/", response_model=List[int])
+@app.get("/all-nodes/", response_model=List[int])
 async def get_nodes():
     query = select(distinct(data.c.node))
     result = await database.fetch_all(query)
@@ -173,7 +174,7 @@ async def get_nodes():
     return nodes
 
 
-@app.get("/failure/{node}/", response_model=int, status_code=status.HTTP_200_OK)
+@app.get("/device/{node}/disabled", status_code=status.HTTP_200_OK)
 async def read_latest_data(node: int):
     try:
         result = await fetch_data(node)
@@ -182,8 +183,9 @@ async def read_latest_data(node: int):
 
         # Count the number of faulty devices (reply_status == "Failure")
         faulty_devices = sum(1 for row in result if row["reply_status"] == "Failure")
-        
-        return faulty_devices
+        print(faulty_devices)
+        return {"faulty_devices": faulty_devices}
+    
     except Exception as e:
         logger.error(f"Error: {e}")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
@@ -208,7 +210,7 @@ async def fetch_data(node: int):
     return await database.fetch_all(query)
 
 @app.get("/average/{type}/{node}/", response_model=float, status_code=status.HTTP_200_OK)
-async def get_average_obscuration(node: int, type: str):
+async def get_average_measurement(node: int, type: str):
     
     measure_columns = {
         "smoke": (data.c.units_of_measure1, data.c.converted_value1, "%/m obscuration"),
@@ -238,9 +240,8 @@ async def get_average_obscuration(node: int, type: str):
         logger.error(f"Error: {e}")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
     
-
-@app.get("/average/{type}/{node}/period", response_model=List[Dict[str, Union[float, str]]], status_code=status.HTTP_200_OK)
-async def get_average_co_period(node: int, type:str):
+@app.get("/average/{type}/{node}/period/", response_model=List[Dict[str, Union[float, str]]], status_code=status.HTTP_200_OK)
+async def get_average_measurement_period(node: int, type:str):
     # http://127.0.0.1:8000/average/heat/0/period
     measure_columns = {
         "smoke": (data.c.units_of_measure1, data.c.converted_value1, "%/m obscuration"),
@@ -252,10 +253,7 @@ async def get_average_co_period(node: int, type:str):
     if type not in measure_columns:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid type: {type}")
 
-    if type == "dirtiness":
-        unit_of_measure_column = measure_columns[type]
-    else:
-        unit_of_measure_column, value_of_measure_column, type_of_measure = measure_columns[type]
+    unit_of_measure_column, value_of_measure_column, type_of_measure = measure_columns[type]
     try:
         # Get the timestamp of the first entry
         first_entry_query = select([data.c.datetime]).where(data.c.node == node).order_by(data.c.datetime).limit(1)
@@ -268,7 +266,7 @@ async def get_average_co_period(node: int, type:str):
         # Query for average heat over the time period
         if type == "dirtiness":
             query = (
-                select([func.avg(data.c.dirtiness).label('average'), func.to_char(data.c.datetime, text("'Dy Mon DD HH24:MI YYYY'")).label('formatted_datetime')])
+                select([func.avg(data.c.dirtiness).label('average'), cast(func.to_timestamp(func.to_char(data.c.datetime, text("'YYYY-MM-DD HH24:MI'")), 'YYYY-MM-DD HH24:MI'), DateTime).label('formatted_datetime')])
                 .where(data.c.node == node)
                 .where(data.c.datetime >= start_time)
                 .where(data.c.datetime <= end_time)
@@ -277,7 +275,7 @@ async def get_average_co_period(node: int, type:str):
             )
         else:
             query = (
-                select([func.avg(value_of_measure_column).label('average'), func.to_char(data.c.datetime, text("'Dy Mon DD HH24:MI YYYY'")).label('formatted_datetime')])
+                select([func.avg(value_of_measure_column).label('average'), cast(func.to_timestamp(func.to_char(data.c.datetime, text("'YYYY-MM-DD HH24:MI'")), 'YYYY-MM-DD HH24:MI'), DateTime).label('formatted_datetime')])
                 .where(data.c.node == node)
                 .where(unit_of_measure_column == type_of_measure)
                 .where(data.c.datetime >= start_time)
@@ -296,3 +294,42 @@ async def get_average_co_period(node: int, type:str):
         logger.error(f"Error: {e}")
         logger.error(traceback.format_exc())
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
+
+@app.get("/device/{node}/faulty/", status_code=status.HTTP_200_OK)
+async def count_fault(node: int):
+    query = (
+        select([func.count()])
+        .where(data.c.node == node)
+        .where(
+            or_(
+                data.c.instantaneous_fault_state > 0,
+                data.c.confirmed_fault_state > 0,
+                data.c.acknowledged_fault_state > 0
+            )
+        )
+    )
+
+    result = await database.fetch_one(query)
+
+    return {"faulty_rows": result[0]}
+
+@app.get("/device/{node}/faulty/latest/", status_code=status.HTTP_200_OK)
+async def count_latest_fault(node: int):
+    latest_datetime_query = select([func.max(data.c.datetime)]).where(data.c.node == node)
+
+    query = (
+        select([func.count()])
+        .where(data.c.node == node)
+        .where(data.c.datetime == latest_datetime_query.as_scalar())
+        .where(
+            or_(
+                data.c.instantaneous_fault_state > 0,
+                data.c.confirmed_fault_state > 0,
+                data.c.acknowledged_fault_state > 0
+            )
+        )
+    )
+
+    result = await database.fetch_one(query)
+
+    return {"faulty_rows": result[0]}

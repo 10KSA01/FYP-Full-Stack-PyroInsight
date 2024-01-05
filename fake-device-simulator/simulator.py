@@ -159,11 +159,10 @@ class FakeDeviceSimulator:
 
     def update_dirtiness(self, index):
         # can change rand_num to any number between 1-100, so if rand_dirtiness() is equal to rand_num then increase the dirtiness
-        rand_num = 50
         dirtiness = self.devices.iat[index, 25] 
         if int(dirtiness) < 255:
-            if self.rand_hundred() == rand_num:
-                dirtiness = str(int(dirtiness) + 1)
+            if self.counter % self.rand_ten() == 0:
+                self.devices.iat[index, 25] = str(int(dirtiness) + 1)
     
     def check_device_type(self, index):
         device_type = self.devices.iat[index, 10].split()

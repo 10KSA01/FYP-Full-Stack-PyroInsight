@@ -19,8 +19,16 @@ layout = dbc.Card(
             ),
             dbc.Row(
                 [
-                    dbc.Col([panel_obscuration_line_graph()], width=6),
-                    dbc.Col([dfgraph()], width=6),
+                    dbc.Col([panel_measurement_line_graph(0, "dirtiness")], width=6),
+                    dbc.Col([panel_measurement_line_graph(0, "smoke")], width=6),
+                ],
+                align="center",    
+            ),
+            html.Br(),
+            dbc.Row(
+                [
+                    dbc.Col([panel_measurement_line_graph(0, "heat")], width=6),
+                    dbc.Col([panel_measurement_line_graph(0, "co")], width=6),
                 ],
                 align="center",    
             ),
@@ -28,17 +36,18 @@ layout = dbc.Card(
             dbc.Row(
                 [
                     dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
-                    dbc.Col([get_statistic_card("Devices disabled this year", "15")], width=4),
-                    dbc.Col([get_statistic_card("Devices disabled this year", "20")], width=4),
+                    dbc.Col([get_statistic_card("Devices faulty this year", "15")], width=4),
+                    dbc.Col([get_statistic_card("Number of healthy devices", "20")], width=4),
                 ],
                 align="center",    
             ),
             html.Br(),
             dbc.Row(
                 [
-                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
-                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
-                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
+                    dbc.Col([get_statistic_card("Average Dirtiness", "10")], width=3),
+                    dbc.Col([get_statistic_card("Average Obscuration", "60")], width=3),
+                    dbc.Col([get_statistic_card("Average Temperature", "29")], width=3),
+                    dbc.Col([get_statistic_card("Average Carbon Monoxide", "10")], width=3),
                 ],
                 align="center",    
             ),

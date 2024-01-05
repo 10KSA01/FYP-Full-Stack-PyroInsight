@@ -41,30 +41,37 @@ def downsample_data(coordinates, max_points=100):
 
     return downsampled_coordinates
 
-def panel_obscuration_line_graph():
-    response = requests.get('http://127.0.0.1:8000/average-obscuration-period/0/')
-    obscuration_data = response.json()
+def panel_measurement_line_graph(node, type):
+    response = requests.get(f'http://127.0.0.1:8000/average/{type}/{node}/period/')
+    measurement_data = response.json()
+    measure_columns = {
+        "smoke": ("Average Obscuration", "Obscuration (%/m)"),
+        "heat": ("Average Temperature", "Temperature (°C)"),
+        "co": ("Average Carbon Monoxide", "Carbon Monoxide (ppm)"),
+        "dirtiness": ("Average Dirtiness", "Dirtiness")
+    }
+    downsampled_measurement_data = downsample_data(measurement_data)
+    title, units = measure_columns[type]
 
-    downsampled_obscuration_data = downsample_data(obscuration_data)
     # Extract x and y values from the JSON data
-    datetime = [point['datetime'] for point in downsampled_obscuration_data]
-    obscuration = [point['obscuration'] for point in downsampled_obscuration_data]
+    datetime = [point['datetime'] for point in downsampled_measurement_data]
+    measurement = [point[type] for point in downsampled_measurement_data]
     return html.Div(
         [
             dbc.Card(
                 [
-                    dbc.CardHeader("Panel 1"),
+                    dbc.CardHeader(f"Panel 1 - {title}"),
                     dbc.CardBody(
                         [
                             dcc.Graph(
                                 figure = {
                                     'data': [
-                                        {'x': datetime, 'y': obscuration, 'mode': 'lines'}
+                                        {'x': datetime, 'y': measurement, 'mode': 'lines'}
                                     ],
                                     'layout': {
-                                        'title': 'Obscuration',
-                                        'xaxis': {'title': 'Datetime', 'tickformat': '%Y-%m-%d', 'nticks': 10},
-                                        'yaxis': {'title': 'Obscuration'}
+                                        'title': title,
+                                        'xaxis': {'title': 'Date & Time'},
+                                        'yaxis': {'title': units}
                                     }
                                 }                                
                             )

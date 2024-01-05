@@ -48,7 +48,10 @@ columns_to_upload = [
     'units_of_measure3',
     'converted_value1',
     'converted_value2',
-    'converted_value3'
+    'converted_value3',
+    'instantaneous_fault_state',
+    'confirmed_fault_state',
+    'acknowledged_fault_state'
 ]
 
 all_dtypes = {
@@ -97,22 +100,25 @@ all_dtypes = {
 }
 # Define the column data types
 dtypes = {
-    'id':                   sa.String(length=30),
-    'datetime':             sa.TIMESTAMP(),
-    'reply_status':         sa.String(length=10),
-    'node':                 sa.Integer(),
-    'channel_address':      sa.Integer(),
-    'point_number':         sa.String(length=50),
-    'logical_point_number': sa.Integer(),
-    'logical_point_zone':   sa.String(length=20),
-    'device_type':          sa.String(length=50),
-    'dirtiness':            sa.Integer(),
-    'units_of_measure1':    sa.String(length=30), 
-    'units_of_measure2':    sa.String(length=30),
-    'units_of_measure3':    sa.String(length=30),
-    'converted_value1':     sa.Integer(),
-    'converted_value2':     sa.Integer(),
-    'converted_value3':     sa.Integer()
+    'id':                        sa.String(length=30),
+    'datetime':                  sa.TIMESTAMP(),
+    'reply_status':              sa.String(length=10),
+    'node':                      sa.Integer(),
+    'channel_address':           sa.Integer(),
+    'point_number':              sa.String(length=50),
+    'logical_point_number':      sa.Integer(),
+    'logical_point_zone':        sa.String(length=20),
+    'device_type':               sa.String(length=50),
+    'dirtiness':                 sa.Integer(),
+    'units_of_measure1':         sa.String(length=30), 
+    'units_of_measure2':         sa.String(length=30),
+    'units_of_measure3':         sa.String(length=30),
+    'converted_value1':          sa.Integer(),
+    'converted_value2':          sa.Integer(),
+    'converted_value3':          sa.Integer(),
+    'instantaneous_fault_state': sa.Integer(),
+    'confirmed_fault_state':     sa.Integer(),
+    'acknowledged_fault_state':  sa.Integer(),
 }
 
 float_to_int64 = [

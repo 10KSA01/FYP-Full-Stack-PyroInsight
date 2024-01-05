@@ -44,6 +44,7 @@ dropdown = dbc.DropdownMenu(
     ],
     size="sm",
 )
+
 def device_property_card():
     return html.Div(
         [
@@ -123,7 +124,7 @@ def download_history_data(n_clicks, selected_rows):
     Input('interval', 'n_intervals')
 )
 def update_device_table(n_intervals):
-    response = requests.get('http://127.0.0.1:8000/latest-panel/0/')
+    response = requests.get('http://127.0.0.1:8000/panel/0/latest/')
     data = response.json()
     
     # selected_columns = ['id', 'datetime', 'device_type', 'units_of_measure1', 'converted_value1', 'units_of_measure2', 'converted_value2', 'units_of_measure3', 'converted_value3']

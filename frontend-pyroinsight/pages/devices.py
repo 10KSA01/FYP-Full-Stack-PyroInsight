@@ -8,10 +8,10 @@ from components.other import *
 
 register_page(__name__)
 
-def failure():
+def disabled():
     try:
         # Fetch data from an API
-        response = requests.get("http://127.0.0.1:8000/failure/0/")
+        response = requests.get("http://127.0.0.1:8000/device/0/disabled/")
         data = response.json()
 
         return str(data)
@@ -19,12 +19,11 @@ def failure():
         print("Error:", e)
         return "Error fetching data"
     
-def average_obscuration():
+def average_measurement(node, type):
     try:
         # Fetch data from an API
-        response = requests.get("http://127.0.0.1:8000/average-obscuration/0/")
+        response = requests.get(f"http://127.0.0.1:8000/average/{type}/{node}/")
         data = response.json()
-
         return str(data)
     except Exception as e:
         print("Error:", e)
@@ -52,8 +51,8 @@ layout = dbc.Card(
             dbc.Row(
                 [
                     # dcc.Interval(id='interval', interval=1000 * 10, n_intervals=0),
-                    dbc.Col([get_statistic_card("Failed devices", failure())], width=4),
-                    dbc.Col([get_statistic_card("Average Obscuration", average_obscuration())], width=4),
+                    dbc.Col([get_statistic_card("Failed devices", disabled())], width=4),
+                    dbc.Col([get_statistic_card("Average Obscuration", average_measurement(0, "smoke"))], width=4),
                     dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
                 ],
                 align="center",    
