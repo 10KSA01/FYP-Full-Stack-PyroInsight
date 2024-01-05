@@ -11,7 +11,7 @@ register_page(__name__)
 def disabled():
     try:
         # Fetch data from an API
-        response = requests.get("http://127.0.0.1:8000/device/0/disabled/")
+        response = requests.get("http://127.0.0.1:8000/panel/0/disabled/")
         data = response.json()
 
         return str(data)
@@ -22,9 +22,9 @@ def disabled():
 def average_measurement(node, type):
     try:
         # Fetch data from an API
-        response = requests.get(f"http://127.0.0.1:8000/average/{type}/{node}/")
+        response = requests.get(f"http://127.0.0.1:8000/page/average/{type}/{node}/")
         data = response.json()
-        return str(data)
+        return str(round(data, 2))
     except Exception as e:
         print("Error:", e)
         return "Error fetching data"
@@ -50,7 +50,7 @@ layout = dbc.Card(
             html.Br(),
             dbc.Row(
                 [
-                    # dcc.Interval(id='interval', interval=1000 * 10, n_intervals=0),
+                    dcc.Interval(id='interval', interval=1000 * 10, n_intervals=0),
                     dbc.Col([get_statistic_card("Failed devices", disabled())], width=4),
                     dbc.Col([get_statistic_card("Average Obscuration", average_measurement(0, "smoke"))], width=4),
                     dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),

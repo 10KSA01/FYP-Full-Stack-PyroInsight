@@ -42,7 +42,7 @@ def downsample_data(coordinates, max_points=100):
     return downsampled_coordinates
 
 def panel_measurement_line_graph(node, type):
-    response = requests.get(f'http://127.0.0.1:8000/average/{type}/{node}/period/')
+    response = requests.get(f'http://127.0.0.1:8000/pannel/average/{type}/{node}/period/')
     measurement_data = response.json()
     measure_columns = {
         "smoke": ("Average Obscuration", "Obscuration (%/m)"),
