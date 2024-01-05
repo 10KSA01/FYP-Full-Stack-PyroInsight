@@ -26,7 +26,7 @@ def device_table_card():
                                     resizable=True, sortable=True, filter=True, minWidth=100
                                 ),
                                 dashGridOptions={"pagination": True, "rowSelection": "single"},
-                                style={'height': '500px'}
+                                style={'height': '600px'}
                             ),
                         ]
                     )
@@ -44,6 +44,7 @@ dropdown = dbc.DropdownMenu(
     ],
     size="sm",
 )
+
 def device_property_card():
     return html.Div(
         [
@@ -52,15 +53,13 @@ def device_property_card():
                     dbc.CardHeader(
                         dbc.Row(
                             [
-                                dcc.Store(id='selected-rows-store'),
                                 dbc.Col("Device Properties"),
-                                dbc.Col(dropdown,style={"textAlign": "right"}),
                             ],
                         )
                     ),
                     dbc.CardBody(
                         [
-                            dash_table.DataTable(id='data-table', columns=[], data=[], style_table={'height': '500px'}),
+                            dash_table.DataTable(id='data-table', columns=[], data=[], style_table={'height': '600px'}),
                         ]
                     )            
                 ]
@@ -68,62 +67,13 @@ def device_property_card():
         ]
     )
     
-@callback(
-    Output('selected-rows-store', 'data'),
-    Input('device-table', 'selectedRows'),
-    prevent_initial_call=True,
-)
-def store_selected_rows(selectedRows):
-    # print("hi",selectedRows)
-    return selectedRows
-
-@callback(
-    Output("download-current-data", "data"),
-    Input("current-data", "n_clicks"),
-    Input('selected-rows-store', 'data'),
-    prevent_initial_call=True,
-)
-def download_current_data(n_clicks, selected_rows):
-    if n_clicks is None or n_clicks == 0:
-        return None  # No download
-    if n_clicks == 1:
-        print(n_clicks, "noo")
-        if selected_rows:
-            current_selected_row = selected_rows[0]['id']
-            response = requests.get(f'http://127.0.0.1:8000/device/{current_selected_row}/latest')
-            data = response.json()
-            dataPd = pd.DataFrame(data)
-            n_clicks = 0
-            print(n_clicks, "ues")
-            return dcc.send_data_frame(dataPd.to_csv, "selected_data.csv")
-    else:
-        return None
-        
-@callback(
-    Output("download-history-data", "data"),
-    Input("history-data", "n_clicks"),
-    Input('selected-rows-store', 'data'),
-    prevent_initial_call=True,
-)
-def download_history_data(n_clicks, selected_rows):
-    if n_clicks:
-        if selected_rows:
-            current_selected_row = selected_rows[0]['id']
-            response = requests.get(f'http://127.0.0.1:8000/device/{current_selected_row}')
-            data = response.json()
-            dataPd = pd.DataFrame(data)
-            n_clicks = 0
-            return dcc.send_data_frame(dataPd.to_csv, "history_data.csv")
-    else:
-        return None
-
 # Callback to update the AgGrid table with filtered data from the backend
 @callback(
     Output('device-table', 'rowData'),
     Input('interval', 'n_intervals')
 )
 def update_device_table(n_intervals):
-    response = requests.get('http://127.0.0.1:8000/latest-panel/0/')
+    response = requests.get('http://127.0.0.1:8000/panel/0/latest/')
     data = response.json()
     
     # selected_columns = ['id', 'datetime', 'device_type', 'units_of_measure1', 'converted_value1', 'units_of_measure2', 'converted_value2', 'units_of_measure3', 'converted_value3']
@@ -131,6 +81,7 @@ def update_device_table(n_intervals):
     
     return filtered_data
 
+# Device Properties Table
 @callback(
     Output('data-table', 'columns'),
     Output('data-table', 'data'),

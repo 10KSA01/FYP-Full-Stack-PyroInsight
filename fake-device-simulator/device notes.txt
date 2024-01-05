@@ -1,0 +1,22 @@
+PC - Smoke, Heat & Carbon Monoxide (CO)
+P  - Smoke 
+H  - Heat
+PH - Smoke & Heat
+
+Type  - Unit of measurement
+Smoke - %/m obscuration
+Heat  - Degrees C
+CO    - ppm (parts per million)
+
+
+-----------------
+[  ] 100 devices on panels, we could only have a device read over 1 minutes instead of 5 seconds
+[  ] Read only photo and heat detectors (P, H, PH and PC device types)
+[  ] Heat and obsecuration
+[  ] Overall heat that site temperature 
+[  ] Obscuration read over time in a site
+[  ] Maintenance if obscuration goes below threshold
+[  ] Device failure for response rate for certain days and overall
+[  ] Health rate is the percentage of number of successful reply over total replies (success reply÷total reply)
+[  ] Graph for temp over time
+[  ] Graph for obscuration humi
