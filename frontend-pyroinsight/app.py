@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 from components.sidebar import get_sidebar
 from components.statistic_card import get_statistic_card
-from components.other import *
+from components.graphs import *
 
 icons = ["bi bi-house-fill", "bi bi-motherboard-fill", "bi bi-person-lines-fill", "bi bi-box-arrow-right"]
 descriptions = ["Main Dashboard", "Device Dashboard", "Profile", "Logout"]
@@ -30,4 +30,4 @@ app.layout = html.Div(
 
 # Run app and display result inline in the notebook
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8075)
+    app.run_server(debug=False, port=8075)

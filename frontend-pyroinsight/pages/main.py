@@ -2,7 +2,8 @@ from dash import Dash, html, dcc, register_page
 import dash_bootstrap_components as dbc
 from components.sidebar import get_sidebar
 from components.statistic_card import get_statistic_card
-from components.other import *
+from components.graphs import *
+from apis import average_measurement, get_latest_faulty_devices_panel, get_latest_disabled_devices_panel, get_latest_healthy_devices_panel
 
 register_page(__name__, path='/')
 
@@ -35,19 +36,19 @@ layout = dbc.Card(
             html.Br(),
             dbc.Row(
                 [
-                    dbc.Col([get_statistic_card("Devices disabled this year", "10")], width=4),
-                    dbc.Col([get_statistic_card("Devices faulty this year", "15")], width=4),
-                    dbc.Col([get_statistic_card("Number of healthy devices", "20")], width=4),
+                    dbc.Col([get_statistic_card("Current disabled devices", get_latest_disabled_devices_panel(0))], width=4),
+                    dbc.Col([get_statistic_card("Current faulty devices", get_latest_faulty_devices_panel(0))], width=4),
+                    dbc.Col([get_statistic_card("Current healthy devices", get_latest_healthy_devices_panel(0))], width=4),
                 ],
                 align="center",    
             ),
             html.Br(),
             dbc.Row(
                 [
-                    dbc.Col([get_statistic_card("Average Dirtiness", "10")], width=3),
-                    dbc.Col([get_statistic_card("Average Obscuration", "60")], width=3),
-                    dbc.Col([get_statistic_card("Average Temperature", "29")], width=3),
-                    dbc.Col([get_statistic_card("Average Carbon Monoxide", "10")], width=3),
+                    dbc.Col([get_statistic_card("Average Obscuration", average_measurement(0, "smoke"))], width=3),
+                    dbc.Col([get_statistic_card("Average Temperature", average_measurement(0, "heat"))], width=3),
+                    dbc.Col([get_statistic_card("Average Carbon Monoxide", average_measurement(0, "co"))], width=3),
+                    dbc.Col([get_statistic_card("Average Dirtiness", average_measurement(0, "dirtiness"))], width=3),
                 ],
                 align="center",    
             ),
