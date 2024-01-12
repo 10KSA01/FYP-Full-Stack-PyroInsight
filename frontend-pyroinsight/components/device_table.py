@@ -125,9 +125,9 @@ def update_measurement_cards(selectedRows):
         co_data = get_average_measurement_device(current_selected_row, "co")
         dirtiness_data = get_average_measurement_device(current_selected_row, "dirtiness")
 
-        return smoke_data or "NaN", heat_data or "NaN", co_data or "NaN", dirtiness_data or "NaN"
+        return smoke_data or "Not Applicable", heat_data or "Not Applicable", co_data or "Not Applicable", dirtiness_data or "Not Applicable"
     else:
-        return "NaN", "NaN", "NaN", "NaN" 
+        return "Not Applicable", "Not Applicable", "Not Applicable", "Not Applicable" 
 
 
 # Callback to update the AgGrid table with filtered data from the backend
