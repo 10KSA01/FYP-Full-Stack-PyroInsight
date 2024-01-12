@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 ## Don't press the play button in the top right corner, it will not work ##
 user = "postgres"
 password = "TestServer123"
-tablename = "sim05-01-24"
+tablename = "sim11-01-24"
 host = "localhost"
 port = "5432"
 dbname = "Devices"
@@ -441,3 +441,49 @@ async def get_average_measurement_panel_period(node: int, type:str):
         logger.error(f"Error: {e}")
         logger.error(traceback.format_exc())
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
+    
+# Get the data for a specific device type in a node/panel
+# @app.get("/panel/{node}/{devicetype}/", response_model=List[Data], status_code=status.HTTP_200_OK)
+# async def get_all_data_devicetype_panel(node: int, devicetype:str):
+#     query = (
+#         select([data])
+#         .where(data.c.node == node)
+#         .where(data.c.device_type == devicetype)
+#     )
+
+#     result = await database.fetch_all(query)
+
+#     if not result:
+#         return JSONResponse(content={"message": "No data found for the given node and device type."}, status_code=status.HTTP_404_NOT_FOUND)
+
+#     return result
+
+@app.get("/panel/{node}/{devicetype}/", response_model=List[dict], status_code=status.HTTP_200_OK)
+async def get_all_data_devicetype_panel(node: int, devicetype:str):
+    query = (
+        select([data.c.id, data.c.datetime, data.c.reply_status, data.c.dirtiness, data.c.converted_value1, data.c.converted_value2, data.c.instantaneous_fault_state, data.c.confirmed_fault_state, data.c.acknowledged_fault_state])
+        .where(data.c.node == node)
+        .where(data.c.device_type == devicetype)
+    )
+
+    result = await database.fetch_all(query)
+
+    if not result:
+        return JSONResponse(content={"message": "No data found for the given node and device type."}, status_code=status.HTTP_404_NOT_FOUND)
+
+    # Convert each SQLModel object into a dictionary
+    result = [dict(record) for record in result]
+
+    # Convert the result to a DataFrame
+    df = pd.DataFrame(result)
+
+    # Sort the DataFrame based on 'id'
+    df = df.sort_values(['id', 'datetime'])
+
+    # Remove duplicate rows based on all columns except 'datetime'
+    df = df.drop_duplicates(subset=df.columns.difference(['datetime']))
+
+    # Convert the DataFrame back to a list of dictionaries
+    result = df.to_dict('records')
+
+    return result

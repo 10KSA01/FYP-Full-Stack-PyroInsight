@@ -54,6 +54,10 @@ class FakeDeviceSimulator:
     def __init__(self):
         self.load_config()
         self.devices = pd.DataFrame()
+        self.old_smoke = ""
+        self.old_heat = ""
+        self.old_co = ""
+        self.old_dirtiness = ""
         
     def find_config(self):
         # Get the current directory
@@ -87,6 +91,9 @@ class FakeDeviceSimulator:
         print("Loading Devices\n") 
         # read csv file into DataFrame
         self.devices = pd.read_csv(self.find_devices_file_path)
+    
+    def count_devices(self):
+        return self.devices.shape[0]
                 
     def current_time(self):
         # Get the current date and time
@@ -108,7 +115,7 @@ class FakeDeviceSimulator:
         # Write the updated JSON data back to the config.json file
         with open(self.find_config(), 'w') as config_file:
             config_file.write(json.dumps(config_data, indent=4))
-
+    
     ## Random failures ##
     def rand_failure_reply_status(self):
         return random.randint(4,7)
@@ -126,43 +133,78 @@ class FakeDeviceSimulator:
         return random.randint(1,255)
 
     def rand_failures(self, index):
-        if self.counter % self.rand_failure_reply_status() == 0:
-            self.devices.iat[index, 1] = "Failure"
-        else:
-            self.devices.iat[index, 1] = "Success"
+        # I want the reply status to be a failure whenever there is fault in any fault state
+        # if self.counter % self.rand_failure_reply_status() == 0:
+        #     self.devices.iat[index, 1] = "Failure"
+        # else:
+        #     self.devices.iat[index, 1] = "Success"
 
-        if self.counter % self.rand_failure_flags() == 0:
-            self.devices.iat[index, 2] = "Loop Fault"
-        else:
-            self.devices.iat[index, 2] = "None"        
+        # if self.counter % self.rand_failure_flags() == 0:
+        #     self.devices.iat[index, 2] = "Loop Fault"
+        # else:
+        #     self.devices.iat[index, 2] = "None"
 
         if self.counter % self.rand_failure_instantaneous_fault_state() == 0:
             self.devices.iat[index, 33] = str(self.rand_failure_instantaneous_fault_state())
+            if (self.rand_failure_instantaneous_fault_state() > 49 and self.rand_failure_instantaneous_fault_state() < 100):
+                self.devices.iat[index, 1] = "Failure"
+                self.devices.iat[index, 25] = self.old_dirtiness
+                self.devices.iat[index, 29] = self.old_smoke
+                self.devices.iat[index, 30] = self.old_heat
+                self.devices.iat[index, 31] = self.old_co
+            if (self.rand_failure_instantaneous_fault_state() > 149 and self.rand_failure_instantaneous_fault_state() < 200):
+                self.devices.iat[index, 2] = "Loop Fault"
         else:
             self.devices.iat[index, 33] = "0"
+            self.devices.iat[index, 1] = "Success"
+            self.devices.iat[index, 2] = "None"
 
         if self.counter % self.rand_failure_confirmed_fault_state() == 0:
             self.devices.iat[index, 35] = str(self.rand_failure_confirmed_fault_state())
+            if (self.rand_failure_confirmed_fault_state() > 49 and self.rand_failure_confirmed_fault_state() < 100):
+                self.devices.iat[index, 1] = "Failure"
+                self.devices.iat[index, 25] = self.old_dirtiness
+                self.devices.iat[index, 29] = self.old_smoke
+                self.devices.iat[index, 30] = self.old_heat
+                self.devices.iat[index, 31] = self.old_co
+            if (self.rand_failure_confirmed_fault_state() > 149 and self.rand_failure_confirmed_fault_state() < 200):
+                self.devices.iat[index, 2] = "Loop Fault"
         else:
             self.devices.iat[index, 35] = "0"
+            self.devices.iat[index, 1] = "Success"
+            self.devices.iat[index, 2] = "None"
 
         if self.counter % self.rand_failure_acknowledged_fault_state() == 0:
             self.devices.iat[index, 37] = str(self.rand_failure_acknowledged_fault_state())
+            if (self.rand_failure_acknowledged_fault_state() > 49 and self.rand_failure_acknowledged_fault_state() < 100):
+                self.devices.iat[index, 1] = "Failure"
+                self.devices.iat[index, 25] = self.old_dirtiness
+                self.devices.iat[index, 29] = self.old_smoke
+                self.devices.iat[index, 30] = self.old_heat
+                self.devices.iat[index, 31] = self.old_co
+            if (self.rand_failure_acknowledged_fault_state() > 149 and self.rand_failure_acknowledged_fault_state() < 200):
+                self.devices.iat[index, 2] = "Loop Fault"
         else:
             self.devices.iat[index, 37] = "0"
+            self.devices.iat[index, 1] = "Success"
+            self.devices.iat[index, 2] = "None"
             
     def rand_hundred(self):
         return random.randint(1,101)
     
     def rand_ten(self):
         return random.randint(1,11)
+    
+    def rand_three(self):
+        return random.randint(1,4)
 
     def update_dirtiness(self, index):
         # can change rand_num to any number between 1-100, so if rand_dirtiness() is equal to rand_num then increase the dirtiness
-        dirtiness = self.devices.iat[index, 25] 
+        self.old_dirtiness = ""
+        dirtiness = self.old_dirtiness = self.devices.iat[index, 25] 
         if int(dirtiness) < 255:
             if self.counter % self.rand_hundred() == 0 and self.counter % self.rand_ten() == 0:
-                self.devices.iat[index, 25] = str(int(dirtiness) + 1)
+                self.devices.iat[index, 25] = str(int(dirtiness) + self.rand_three())
     
     def check_device_type(self, index):
         device_type = self.devices.iat[index, 10].split()
@@ -173,19 +215,24 @@ class FakeDeviceSimulator:
         heat = ""
         smoke = ""
         co = "" # Carbon Monoxide
-        device_type = self.check_device_type(index)
 
+        self.old_smoke = ""
+        self.old_heat = ""
+        self.old_co = ""
+
+        device_type = self.check_device_type(index)
+        
         if device_type == "P":
-            smoke = self.devices.iat[index, 29]
+            smoke = self.old_smoke = self.devices.iat[index, 29]
         elif device_type == "H":
-            heat = self.devices.iat[index, 30]
+            heat = self.old_heat = self.devices.iat[index, 30]
         elif device_type == "PH":
-            smoke = self.devices.iat[index, 29]
-            heat = self.devices.iat[index, 30]
+            smoke = self.old_smoke =self.devices.iat[index, 29]
+            heat = self.old_heat = self.devices.iat[index, 30]
         elif device_type == "PC":
-            smoke = self.devices.iat[index, 29]
-            heat = self.devices.iat[index, 30]
-            co = self.devices.iat[index, 31]
+            smoke = self.old_smoke = self.old_smoke = self.devices.iat[index, 29]
+            heat = self.old_heat = self.devices.iat[index, 30]
+            co = self.old_co =self.devices.iat[index, 31]
 
         if smoke != "":
             if int(smoke) < 255:
@@ -212,7 +259,7 @@ class FakeDeviceSimulator:
                     self.devices.iat[index, 30] = heat
 
         if co != "":
-            if int(co) < 255:
+            if int(co) < 5000:
                 if self.rand_ten() == rand_num:
                     if int(co) > 0:
                         if random.choice([True, False]) == True:
@@ -227,9 +274,9 @@ class FakeDeviceSimulator:
     def update_device(self):
         for index, device in self.devices.iterrows():
             self.devices.iat[index, 0] = self.current_time()
-            self.rand_failures(index)
-            self.update_dirtiness(index)
             self.update_type_value(index)
+            self.update_dirtiness(index)
+            self.rand_failures(index)
             
             self.set_counter(self.counter + 1)
 
@@ -252,7 +299,7 @@ def main():
     simulator.update_device()
     #print(simulator.counter)
     while True:
-        if clock.time_elapsed(60):
+        if clock.time_elapsed(120):
             simulator.load_devices()
             simulator.update_device()
             print(simulator.counter)

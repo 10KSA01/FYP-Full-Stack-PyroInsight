@@ -82,3 +82,12 @@ def get_latest_healthy_devices_panel(node):
     except Exception as e:
         print("Error:", e)
         return "Error fetching data"
+
+def get_all_data_devicetype_panel(node, devicetype):
+    try:
+        response = requests.get(f'http://127.0.0.1:8000/panel/{node}/{devicetype}/')
+        data = response.json()
+        return data
+    except Exception as e:
+        print("Error:", e)
+        return "Error fetching data"

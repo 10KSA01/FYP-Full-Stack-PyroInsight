@@ -1,9 +1,15 @@
-from dash import Dash, dcc, html
+from dash import Dash, dcc, html, callback
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import requests
 import pandas as pd
+
+import plotly.graph_objects as go
+from dash.dependencies import Input, Output
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import NearestNeighbors
 from apis import get_average_measurement_period
+
 def panel_status_line_graph():
     return html.Div(
         [
@@ -28,6 +34,10 @@ def panel_status_line_graph():
             ),
         ]
     )
+
+
+
+
 
 def downsample_data(coordinates, max_points=100):
     # Convert the list of dictionaries to a Pandas DataFrame
