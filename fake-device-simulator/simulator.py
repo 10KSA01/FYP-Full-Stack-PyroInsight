@@ -235,15 +235,15 @@ class FakeDeviceSimulator:
             co = self.old_co =self.devices.iat[index, 31]
 
         if smoke != "":
-            if int(smoke) < 255:
+            if int(smoke) < 100:
                 if self.rand_ten() == rand_num:
                     if int(smoke) > 0:
                         if random.choice([True, False]) == True:
-                            smoke = str(int(smoke) + 1)
+                            smoke = str(int(smoke) + self.rand_three() - 1)
                         else:
-                            smoke = str(int(smoke) - 1)
+                            smoke = str(int(smoke) - self.rand_three() - 1)
                     else:
-                        smoke = str(int(smoke) + 1)
+                        smoke = str(int(smoke) + self.rand_three() - 1)
                     self.devices.iat[index, 29] = smoke
 
         if heat != "":
@@ -251,11 +251,11 @@ class FakeDeviceSimulator:
                 if self.rand_ten() == rand_num:
                     if int(heat) > 0:
                         if random.choice([True, False]) == True:
-                            heat = str(int(heat) + 1)
+                            heat = str(int(heat) + self.rand_three())
                         else:
-                            heat = str(int(heat) - 1)
+                            heat = str(int(heat) - self.rand_three())
                     else:
-                        heat = str(int(heat) + 1)
+                        heat = str(int(heat) + self.rand_three())
                     self.devices.iat[index, 30] = heat
 
         if co != "":
@@ -263,11 +263,11 @@ class FakeDeviceSimulator:
                 if self.rand_ten() == rand_num:
                     if int(co) > 0:
                         if random.choice([True, False]) == True:
-                            co = str(int(co) + 1)
+                            co = str(int(co) + self.rand_three())
                         else:
-                            co = str(int(co) - 1)
+                            co = str(int(co) - self.rand_three())
                     else:
-                        co = str(int(co) + 1)
+                        co = str(int(co) + self.rand_three())
                     self.devices.iat[index, 31] = co
         
 
