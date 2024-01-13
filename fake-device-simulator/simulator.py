@@ -203,7 +203,7 @@ class FakeDeviceSimulator:
         self.old_dirtiness = ""
         dirtiness = self.old_dirtiness = self.devices.iat[index, 25] 
         if int(dirtiness) < 255:
-            if self.counter % self.rand_hundred() == 0 and self.counter % self.rand_ten() == 0:
+            if self.rand_hundred % self.rand_ten == 0 and self.counter % self.rand_hundred() == 0 and self.counter % self.rand_ten() == 0:
                 self.devices.iat[index, 25] = str(int(dirtiness) + self.rand_three())
     
     def check_device_type(self, index):
@@ -239,11 +239,11 @@ class FakeDeviceSimulator:
                 if self.rand_ten() == rand_num:
                     if int(smoke) > 0:
                         if random.choice([True, False]) == True:
-                            smoke = str(int(smoke) + self.rand_three() - 1)
+                            smoke = str(int(smoke) + self.rand_three() + 1)
                         else:
                             smoke = str(int(smoke) - self.rand_three() - 1)
                     else:
-                        smoke = str(int(smoke) + self.rand_three() - 1)
+                        smoke = str(int(smoke) + self.rand_three() + 1)
                     self.devices.iat[index, 29] = smoke
 
         if heat != "":
@@ -251,11 +251,11 @@ class FakeDeviceSimulator:
                 if self.rand_ten() == rand_num:
                     if int(heat) > 0:
                         if random.choice([True, False]) == True:
-                            heat = str(int(heat) + self.rand_three())
+                            heat = str(int(heat) + self.rand_three() - 1)
                         else:
-                            heat = str(int(heat) - self.rand_three())
+                            heat = str(int(heat) - self.rand_three() + 1)
                     else:
-                        heat = str(int(heat) + self.rand_three())
+                        heat = str(int(heat) + self.rand_three() - 1)
                     self.devices.iat[index, 30] = heat
 
         if co != "":

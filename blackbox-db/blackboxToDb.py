@@ -118,10 +118,13 @@ class BlackboxToDB:
         self.df['logical_point_zone'] = self.df['logical_point_zone'].replace('Zone N/A', error400)
         self.df['point_number'] = self.df['point_number'].replace('No Physical Address Provided', error400)
         self.df['point_number'] = self.df['point_number'].replace('All', all300)
-        self.df['sector_id'] = self.df['point_number'].replace('Not in Sector', all300)
+        self.df['sector_id'] = self.df['sector_id'].replace('Not in Sector', all300)
+        self.df['converted_value1'] = self.df['converted_value1'].replace('nan', nan0)
+        self.df['converted_value2'] = self.df['converted_value2'].replace('nan', nan0)
+        self.df['converted_value3'] = self.df['converted_value3'].replace('nan', nan0)
 
         # Convert float64 columns to int64
-        self.df[float_to_int64] = self.df[float_to_int64].astype(int)
+        self.df[float_to_int64] = self.df[float_to_int64].astype(float).astype(int)
              
         # Creating unique id column
         self.df['id'] = self.df[unique_id].astype(str).apply(lambda x: '_'.join(x).zfill(3), axis=1)
