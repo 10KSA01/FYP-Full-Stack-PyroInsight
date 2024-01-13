@@ -203,7 +203,7 @@ class FakeDeviceSimulator:
         self.old_dirtiness = ""
         dirtiness = self.old_dirtiness = self.devices.iat[index, 25] 
         if int(dirtiness) < 255:
-            if self.rand_hundred % self.rand_ten == 0 and self.counter % self.rand_hundred() == 0 and self.counter % self.rand_ten() == 0:
+            if self.rand_hundred() % self.rand_ten() == 0 and self.counter % self.rand_hundred() == 0 and self.counter % self.rand_ten() == 0:
                 self.devices.iat[index, 25] = str(int(dirtiness) + self.rand_three())
     
     def check_device_type(self, index):
