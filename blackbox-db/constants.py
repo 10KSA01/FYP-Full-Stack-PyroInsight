@@ -2,6 +2,7 @@ import sqlalchemy as sa
 # Global variables for the blackbox-db project
 error400 = 400
 all300 = 300
+nan0 = 0
 
 column_na_defaults = {
     'reply_status':               'Failure',
@@ -123,24 +124,29 @@ dtypes = {
 
 float_to_int64 = [
     'node', 
-    'channel_address', 
-    'logical_point_number', 
+    'channel_address',
+    'point_number', 
+    'logical_point_number',
+    'logical_point_zone', 
     'auxiliary_point_attributes', 
     'group', 
     'area_type', 
-    'area_number', 
+    'area_number',
+    'sector_id', 
     'raw_identity', 
     'actual_device_type', 
     'mode_and_sensitivity', 
     'raw_analogue_values1', 
     'raw_analogue_values2', 
     'raw_analogue_values3',
+    'lta_flags',
     'raw_lta', 
     'dirtiness', 
     'converted_value1', 
     'converted_value2', 
     'converted_value3',
     'instantaneous_fault_state',
+    'confirmed_active_state',
     'confirmed_fault_state', 
     'acknowledged_active_state', 
     'acknowledged_fault_state'
