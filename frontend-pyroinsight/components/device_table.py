@@ -4,11 +4,10 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 import dash_ag_grid as dag
 import pandas as pd
-from apis import get_latest_panel_data, get_latest_device_data
-from apis import get_average_measurement_device
+from apis import get_latest_panel_data, get_latest_device_data, get_average_measurement_device, get_predict_dirtiness_device
 from components.statistic_card import get_statistic_card
 
-selected_columns = ['id', 'datetime', 'device_type', 'units_of_measure1', 'converted_value1', 'units_of_measure2', 'converted_value2', 'units_of_measure3', 'converted_value3']
+selected_columns = ['id', 'datetime', 'device_type', 'converted_value1', 'converted_value2', 'converted_value3']
 current_selected_row = ""
 
 def device_table_card():
@@ -26,7 +25,7 @@ def device_table_card():
                                 # rowModelType="infinite",
                                 columnSize="autoSize",
                                 defaultColDef=dict(
-                                    resizable=True, sortable=True, filter=True, minWidth=100
+                                    resizable=True, sortable=True, filter=True, minWidth=200
                                 ),
                                 dashGridOptions={"pagination": True, "rowSelection": "single"},
                                 style={'height': '600px'}
@@ -52,83 +51,23 @@ def device_property_card():
                     ),
                     dbc.CardBody(
                         [
-                            dash_table.DataTable(id='data-table', columns=[], data=[], style_table={'height': '600px'}),
+                            dash_table.DataTable(
+                                id='data-table', 
+                                columns=[], 
+                                data=[], 
+                                style_table={'height': '600px'},
+                                style_cell={
+                                    'minWidth': '50px', # minimum width of each column
+                                    'width': '50px',    # width of each column
+                                    'maxWidth': '50px', # maximum width of each column
+                                },
+                            )
                         ]
                     )            
                 ]
             ),
         ]
     )
-
-# Device Properties Table
-# Callback to update the device statistic card when a new row is selected in the device table
-# @callback(
-#     Output('device-statistic-card', 'children'),
-#     Input('device-table', 'selectedRows'),
-#     prevent_initial_call=True,
-# )
-# def update_device_statistic_card(selectedRows, title, type):
-#     if selectedRows:
-#         id = selectedRows[0]['id']
-#         return id
-#     else:
-#         return "NaN"
-
-# def device_statistic_card(text, type):
-#     value = update_device_statistic_card()
-#     if value != "NaN":
-#         value = get_average_measurement_device(update_device_statistic_card, type)
-#     return get_statistic_card(text, value)
-
-card_icon = {
-    "color": "white",
-    "textAlign": "center",
-    "fontSize": 30,
-    "margin": "auto",
-}
-
-def measurement_card(title, type):
-    return html.Div(
-        dbc.CardGroup(
-            [
-                dbc.Card(
-                    html.Div(className="bi bi-slash-circle", style=card_icon),
-                    className="bg-primary",
-                    style={"maxWidth": 75, "maxHeight": 90},
-                ),
-                dbc.Card(
-                    dbc.CardBody(
-                        [
-                            html.P(title, style={"margin": "0"}),
-                            html.H4(children="NaN", id=type, style={"margin": "0"}),
-                        ]
-                    ), 
-                    style={"maxHeight": 90}
-                ),
-            ],
-        )
-    )
-
-@callback(
-    Output('smoke', 'children'),
-    Output('heat', 'children'),
-    Output('co', 'children'),
-    Output('dirtiness', 'children'),
-    Input('device-table', 'selectedRows'),
-    prevent_initial_call=True,
-)
-def update_measurement_cards(selectedRows):
-    if selectedRows:   
-        current_selected_row = selectedRows[0]['id']
-        smoke_data = get_average_measurement_device(current_selected_row, "smoke")
-        heat_data = get_average_measurement_device(current_selected_row, "heat")
-        co_data = get_average_measurement_device(current_selected_row, "co")
-        dirtiness_data = get_average_measurement_device(current_selected_row, "dirtiness")
-
-        return smoke_data or "Not Applicable", heat_data or "Not Applicable", co_data or "Not Applicable", dirtiness_data or "Not Applicable"
-    else:
-        return "Not Applicable", "Not Applicable", "Not Applicable", "Not Applicable" 
-
 
 # Callback to update the AgGrid table with filtered data from the backend
 @callback(
@@ -162,3 +101,88 @@ def update_data_table(selectedRows):
         return [{'name': 'Header', 'id': 'Header'}, {'name': 'Data', 'id': 'Data'}], transposed_data
     else:
         return [], []
+    
+card_icon = {
+    "color": "white",
+    "textAlign": "center",
+    "fontSize": 30,
+    "margin": "auto",
+}
+
+def measurement_card(title, type):
+    return html.Div(
+        dbc.CardGroup(
+            [
+                dbc.Card(
+                    html.Div(className="bi bi-slash-circle", style=card_icon),
+                    className="bg-primary",
+                    style={"maxWidth": 75, "maxHeight": 90},
+                ),
+                dbc.Card(
+                    dbc.CardBody(
+                        [
+                            html.P(f"Average {title}", style={"margin": "0"}),
+                            html.H4(children="Not Applicable", id=type, style={"margin": "0"}),
+                        ]
+                    ), 
+                    style={"maxHeight": 90}
+                ),
+            ],
+        )
+    )
+
+@callback(
+    Output('smoke', 'children'),
+    Output('heat', 'children'),
+    Output('co', 'children'),
+    Output('dirtiness', 'children'),
+    Input('device-table', 'selectedRows'),
+    prevent_initial_call=True,
+)
+def update_measurement_cards(selectedRows):
+    if selectedRows:   
+        current_selected_row = selectedRows[0]['id']
+        smoke_data = get_average_measurement_device(current_selected_row, "smoke")
+        heat_data = get_average_measurement_device(current_selected_row, "heat")
+        co_data = get_average_measurement_device(current_selected_row, "co")
+        dirtiness_data = get_average_measurement_device(current_selected_row, "dirtiness")
+
+        return smoke_data or "Not Applicable", heat_data or "Not Applicable", co_data or "Not Applicable", dirtiness_data or "Not Applicable"
+    else:
+        return "Not Applicable", "Not Applicable", "Not Applicable", "Not Applicable" 
+
+def predict_dirtiness_card():
+    return html.Div(
+        dbc.CardGroup(
+            [
+                dbc.Card(
+                    html.Div(className="bi bi-slash-circle", style=card_icon),
+                    className="bg-primary",
+                    style={"maxWidth": 75, "maxHeight": 90},
+                ),
+                dbc.Card(
+                    dbc.CardBody(
+                        [
+                            html.P(f"Needs cleaning on", style={"margin": "0"}),
+                            html.H4(children="Not Applicable", id="predict_dirtiness", style={"margin": "0"}),
+                        ]
+                    ), 
+                    style={"maxHeight": 90}
+                ),
+            ],
+        )
+    )
+
+@callback(
+    Output('predict_dirtiness', 'children'),
+    Input('device-table', 'selectedRows'),
+    prevent_initial_call=True,
+)
+def update_measurement_cards(selectedRows):
+    if selectedRows:   
+        current_selected_row = selectedRows[0]['id']
+        predict_dirtiness = get_predict_dirtiness_device(current_selected_row)
+
+        return predict_dirtiness or "Not Applicable"
+    else:
+        return "Not Applicable"

@@ -12,6 +12,8 @@ from fastapi import HTTPException
 import logging
 import traceback
 from typing import Dict, Union, List
+from sklearn.linear_model import LinearRegression
+from datetime import datetime, timedelta
 
 logger = logging.getLogger(__name__)
 
@@ -192,6 +194,48 @@ async def get_average_measurement_device(id: str, type: str):
     except Exception as e:
         logger.error(f"Error: {e}")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
+
+
+# Get and predict when a specific device reaches dirtiness of 200
+@app.get("/device/{id}/predict/dirtiness", status_code=status.HTTP_200_OK)
+async def get_predict_dirtiness_device(id: str):
+    query = (
+        select([data.c.datetime, data.c.dirtiness])
+        .where(data.c.id == id)
+    )
+
+    result = await database.fetch_all(query)
+
+    if not result:
+        return JSONResponse(content={"message": "No data found for the given id."}, status_code=status.HTTP_404_NOT_FOUND)
+
+    # Convert each SQLModel object into a dictionary
+    result = [dict(record) for record in result]
+
+    # Convert the result to a DataFrame
+    df = pd.DataFrame(result)
+
+    # Convert datetime to a numerical format (e.g., timestamp)
+    df['datetime'] = pd.to_datetime(df['datetime'], format="%d/%m/%Y %H:%M").astype('int64') / 10**9  # Convert to seconds
+
+    # Select relevant features
+    X = df[['datetime']]
+    y = df['dirtiness']
+
+    # Train a linear regression model
+    model = LinearRegression()
+    model.fit(X, y)
+
+    # Get the current datetime and dirtiness for the specific device
+    current_datetime = df['datetime'].iloc[-1]
+
+    # Predict dirtiness reaching 200 for the specific device
+    time_to_reach_200 = int(model.predict([[200]])[0])
+
+    # Handle the case where the predicted time is negative (due to a reset)
+    datetime_prediction = pd.to_datetime(current_datetime, unit='s') + timedelta(seconds=abs(time_to_reach_200))
+
+    return datetime_prediction
 
 ######### Panel #########
 # Gets the all the information of a all the devices in a specific node/panel
