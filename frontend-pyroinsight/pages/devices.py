@@ -39,6 +39,14 @@ layout = dbc.Card(
                 align="center",
             ),
             html.Br(),
+            dbc.Row(
+                [
+                    dcc.Interval(id='interval', interval=1000 * 10, n_intervals=0),
+                    dbc.Col([predict_dirtiness_card()], width=3),
+                ],
+                align="center",
+            ),
+            html.Br(),
         ]
     )
 )

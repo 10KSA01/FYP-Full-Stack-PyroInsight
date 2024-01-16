@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 
 def get_disabled_devices_panel(node):
     try:
@@ -51,7 +52,7 @@ def get_average_measurement_device(id, type):
         if response.status_code == 500:
             return "NaN"
         data = response.json()
-        return data
+        return str(round(data, 2))
     except Exception as e:
         print("Error:", e)
         return "NaN"
@@ -87,6 +88,19 @@ def get_all_data_devicetype_panel(node, devicetype):
     try:
         response = requests.get(f'http://127.0.0.1:8000/panel/{node}/{devicetype}/')
         data = response.json()
+        return data
+    except Exception as e:
+        print("Error:", e)
+        return "Error fetching data"
+
+def get_predict_dirtiness_device(id):
+    try:
+        response = requests.get(f'http://127.0.0.1:8000/device/{id}/predict/dirtiness/')
+        data = response.json()
+
+        dt = datetime.strptime(data, "%Y-%m-%dT%H:%M:%S")
+        data = dt.strftime("%Y-%m-%d %H:%M")
+
         return data
     except Exception as e:
         print("Error:", e)

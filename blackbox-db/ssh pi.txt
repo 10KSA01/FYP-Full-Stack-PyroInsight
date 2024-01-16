@@ -12,3 +12,4 @@ example:
 scp user@10.163.233.143:~/justBlackboxToDB/blackbox-db/logs/t24-08-23.csv C:\Users\jacharku\Downloads\
 
 scp pi@raspberrypi:~/fake-device-simulator/logfile.csv C:\Users\swaro\Downloads
+password: 12345

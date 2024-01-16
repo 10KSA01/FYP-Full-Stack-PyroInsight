@@ -1,0 +1,3 @@
+fix simulator: 
+
+Devices without CO have 400 as some of the values
