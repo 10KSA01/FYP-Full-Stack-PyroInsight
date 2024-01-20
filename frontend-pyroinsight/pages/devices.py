@@ -31,10 +31,10 @@ layout = dbc.Card(
             dbc.Row(
                 [
                     dcc.Interval(id='interval', interval=1000 * 10, n_intervals=0),
-                    dbc.Col([measurement_card("Obscuration", "smoke")], width=3),
-                    dbc.Col([measurement_card("Temperature", "heat")], width=3),
-                    dbc.Col([measurement_card("Carbon Monoxide", "co")], width=3),
-                    dbc.Col([measurement_card("Dirtiness", "dirtiness")], width=3),
+                    dbc.Col([measurement_card("Obscuration", "latest-smoke", "bi bi-cloud-haze")], width=3),
+                    dbc.Col([measurement_card("Temperature", "latest-heat", "bi bi-thermometer-half")], width=3),
+                    dbc.Col([measurement_card("Carbon Monoxide", "latest-co", "bi bi-wind")], width=3),
+                    dbc.Col([measurement_card("Dirtiness", "latest-dirtiness", "bi bi-trash")], width=3),
                 ],
                 align="center",
             ),
@@ -43,10 +43,28 @@ layout = dbc.Card(
                 [
                     dcc.Interval(id='interval', interval=1000 * 10, n_intervals=0),
                     dbc.Col([predict_dirtiness_card()], width=3),
+                    dbc.Col([fault_card("Instantaneous Fault", "instantaneous_fault_state", "bi bi-x-circle")], width=3),
+                    dbc.Col([fault_card("Confirmed Fault", "confirmed_fault_state", "bi bi-x-square")], width=3),
+                    dbc.Col([fault_card("Acknowledged Fault", "acknowledged_fault_state", "bi bi-x-octagon")], width=3),
                 ],
                 align="center",
             ),
             html.Br(),
+            dbc.Row(
+                [
+                    dbc.Col([device_measurement_line_graph("period-dirtiness")], width=6),
+                    dbc.Col([device_measurement_line_graph("period-smoke")], width=6),
+                ],
+                align="center",    
+            ),
+            html.Br(),
+            dbc.Row(
+                [
+                    dbc.Col([device_measurement_line_graph("period-heat")], width=6),
+                    dbc.Col([device_measurement_line_graph("period-co")], width=6),
+                ],
+                align="center",    
+            ),
         ]
     )
 )

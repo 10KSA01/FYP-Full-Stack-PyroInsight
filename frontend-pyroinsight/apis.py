@@ -105,3 +105,33 @@ def get_predict_dirtiness_device(id):
     except Exception as e:
         print("Error:", e)
         return "Error fetching data"
+    
+def get_latest_column_device_data(id, column):
+    try:
+        response = requests.get(f'http://127.0.0.1:8000/device/{id}/latest/{column}/')
+        data = response.json()
+
+        return data
+    except Exception as e:
+        print("Error:", e)
+        return "Error fetching data"
+    
+def get_latest_column_device_data(id, column):
+    try:
+        response = requests.get(f'http://127.0.0.1:8000/device/{id}/latest/{column}/')
+        data = response.json()
+
+        return data
+    except Exception as e:
+        print("Error:", e)
+        return "Error fetching data"
+    
+def get_measurement_device_period(id, type):
+    try:
+        response = requests.get(f'http://127.0.0.1:8000/device/{id}/{type}/period/')
+        data = response.json()
+
+        return data
+    except Exception as e:
+        print("Error:", e)
+        return "Error fetching data"

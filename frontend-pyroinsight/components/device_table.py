@@ -4,10 +4,11 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 import dash_ag_grid as dag
 import pandas as pd
-from apis import get_latest_panel_data, get_latest_device_data, get_average_measurement_device, get_predict_dirtiness_device
+from apis import *
 from components.statistic_card import get_statistic_card
+from constants import fault_list
 
-selected_columns = ['id', 'datetime', 'device_type', 'converted_value1', 'converted_value2', 'converted_value3']
+selected_columns = ['id', 'datetime', 'device_type', 'converted_value1', 'converted_value2', 'converted_value3', 'instantaneous_fault_state', 'confirmed_fault_state', 'acknowledged_fault_state']
 current_selected_row = ""
 
 def device_table_card():
@@ -25,7 +26,7 @@ def device_table_card():
                                 # rowModelType="infinite",
                                 columnSize="autoSize",
                                 defaultColDef=dict(
-                                    resizable=True, sortable=True, filter=True, minWidth=200
+                                    resizable=True, sortable=True, filter=True, minWidth=160
                                 ),
                                 dashGridOptions={"pagination": True, "rowSelection": "single"},
                                 style={'height': '600px'}
@@ -109,12 +110,12 @@ card_icon = {
     "margin": "auto",
 }
 
-def measurement_card(title, type):
+def measurement_card(title, type, icon):
     return html.Div(
         dbc.CardGroup(
             [
                 dbc.Card(
-                    html.Div(className="bi bi-slash-circle", style=card_icon),
+                    html.Div(className=icon, style=card_icon),
                     className="bg-primary",
                     style={"maxWidth": 75, "maxHeight": 90},
                 ),
@@ -132,22 +133,23 @@ def measurement_card(title, type):
     )
 
 @callback(
-    Output('smoke', 'children'),
-    Output('heat', 'children'),
-    Output('co', 'children'),
-    Output('dirtiness', 'children'),
+    Output('latest-smoke', 'children'),
+    Output('latest-heat', 'children'),
+    Output('latest-co', 'children'),
+    Output('latest-dirtiness', 'children'),
     Input('device-table', 'selectedRows'),
     prevent_initial_call=True,
 )
 def update_measurement_cards(selectedRows):
     if selectedRows:   
         current_selected_row = selectedRows[0]['id']
-        smoke_data = get_average_measurement_device(current_selected_row, "smoke")
-        heat_data = get_average_measurement_device(current_selected_row, "heat")
-        co_data = get_average_measurement_device(current_selected_row, "co")
-        dirtiness_data = get_average_measurement_device(current_selected_row, "dirtiness")
-
-        return smoke_data or "Not Applicable", heat_data or "Not Applicable", co_data or "Not Applicable", dirtiness_data or "Not Applicable"
+        
+        latest_smoke_data = get_average_measurement_device(current_selected_row, "smoke")
+        latest_heat_data = get_average_measurement_device(current_selected_row, "heat")
+        latest_co_data = get_average_measurement_device(current_selected_row, "co")
+        latest_dirtiness_data = get_average_measurement_device(current_selected_row, "dirtiness")
+        
+        return latest_smoke_data or "Not Applicable", latest_heat_data or "Not Applicable", latest_co_data or "Not Applicable", latest_dirtiness_data or "Not Applicable"
     else:
         return "Not Applicable", "Not Applicable", "Not Applicable", "Not Applicable" 
 
@@ -156,7 +158,7 @@ def predict_dirtiness_card():
         dbc.CardGroup(
             [
                 dbc.Card(
-                    html.Div(className="bi bi-slash-circle", style=card_icon),
+                    html.Div(className="bi bi-calendar2-heart", style=card_icon),
                     className="bg-primary",
                     style={"maxWidth": 75, "maxHeight": 90},
                 ),
@@ -178,7 +180,7 @@ def predict_dirtiness_card():
     Input('device-table', 'selectedRows'),
     prevent_initial_call=True,
 )
-def update_measurement_cards(selectedRows):
+def update_predict_dirtiness_card(selectedRows):
     if selectedRows:   
         current_selected_row = selectedRows[0]['id']
         predict_dirtiness = get_predict_dirtiness_device(current_selected_row)
@@ -186,3 +188,114 @@ def update_measurement_cards(selectedRows):
         return predict_dirtiness or "Not Applicable"
     else:
         return "Not Applicable"
+
+def fault_card(title, fault, icon):
+    return html.Div(
+        dbc.CardGroup(
+            [
+                dbc.Card(
+                    html.Div(className=icon, style=card_icon),
+                    className="bg-primary",
+                    style={"maxWidth": 75, "maxHeight": 90},
+                ),
+                dbc.Card(
+                    dbc.CardBody(
+                        [
+                            html.P(f"{title}", style={"margin": "0"}),
+                            html.H4(children="No Faults", id=fault, style={"margin": "0"}),
+                        ]
+                    ), 
+                    style={"maxHeight": 90}
+                ),
+            ],
+        )
+    )
+
+@callback(
+    Output('instantaneous_fault_state', 'children'),
+    Output('confirmed_fault_state', 'children'),
+    Output('acknowledged_fault_state', 'children'),
+    Input('device-table', 'selectedRows'),
+    prevent_initial_call=True,
+)
+def update_measurement_cards(selectedRows):
+    if selectedRows:   
+        current_selected_row = selectedRows[0]['id']
+        instantaneous_fault = fault_list[get_latest_column_device_data(current_selected_row, "instantaneous_fault_state")["instantaneous_fault_state"]]
+        confirmed_fault = fault_list[get_latest_column_device_data(current_selected_row, "confirmed_fault_state")["confirmed_fault_state"]]
+        acknowledged_fault = fault_list[get_latest_column_device_data(current_selected_row, "acknowledged_fault_state")["acknowledged_fault_state"]]
+
+        return instantaneous_fault or "No Faults", confirmed_fault or "No Faults", acknowledged_fault or "No Faults"
+    else:
+        return "No Faults", "No Faults", "No Faults"
+
+def device_measurement_line_graph(type):
+    return html.Div(
+        [
+            dbc.Card(
+                [
+                    dbc.CardBody(children="No", id=type)
+                ]
+            ),
+        ]
+    )
+
+def panel_measurement_line_graph(id, data, title, units, type):
+    datetime = [point['datetime'] for point in data]
+    measurement = [point[type] for point in data]
+    return html.Div(
+        [
+            dbc.CardHeader(f"{id} - {title}"),
+            dbc.CardBody(
+                [
+                    dcc.Graph(
+                        figure = {
+                            'data': [
+                                {'x': datetime, 'y': measurement, 'mode': 'lines'}
+                            ],
+                            'layout': {
+                                'xaxis': {'title': 'Date & Time'},
+                                'yaxis': {'title': units}
+                            }
+                        }
+                    )
+                ]
+            )
+        ]
+    )
+
+
+@callback(
+    Output('period-smoke', 'children'),
+    Output('period-heat', 'children'),
+    Output('period-co', 'children'),
+    Output('period-dirtiness', 'children'),
+    Input('device-table', 'selectedRows'),
+    prevent_initial_call=True,
+)
+def update_measurement_cards(selectedRows):
+    if selectedRows:   
+        id = selectedRows[0]['id']
+        measure_columns = {
+            "period-smoke": ("Obscuration", "Obscuration (%/m)", get_measurement_device_period(id, "smoke"), "smoke"),
+            "period-heat": ("Temperature", "Temperature (°C)", get_measurement_device_period(id, "heat"), "heat"),
+            "period-co": ("Carbon Monoxide", "Carbon Monoxide (ppm)", get_measurement_device_period(id, "co"), "co"),
+            "period-dirtiness": ("Dirtiness", "Dirtiness", get_measurement_device_period(id, "dirtiness"), "dirtiness")
+        }
+
+        title, units, data, type = measure_columns["period-smoke"]
+        period_smoke_data = panel_measurement_line_graph(id, data, title, units, type)
+        
+        title, units, data, type = measure_columns["period-heat"]
+        period_heat_data = panel_measurement_line_graph(id, data, title, units, type)
+        
+        title, units, data, type = measure_columns["period-co"]
+        period_co_data = panel_measurement_line_graph(id, data, title, units, type)
+        
+        title, units, data, type = measure_columns["period-dirtiness"]
+        period_dirtiness_data = panel_measurement_line_graph(id, data, title, units, type)
+        
+        
+        return period_smoke_data or "Not Applicable", period_heat_data or "Not Applicable", period_co_data or "Not Applicable", period_dirtiness_data or "Not Applicable"
+    else:
+        return "Not Applicable", "Not Applicable", "Not Applicable", "Not Applicable" 

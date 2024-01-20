@@ -8,12 +8,12 @@ card_icon = {
     "margin": "auto",
 }
 
-def get_statistic_card(text, value):
+def get_statistic_card(text, value, icon):
     return html.Div(
         dbc.CardGroup(
             [
                 dbc.Card(
-                    html.Div(className="bi bi-slash-circle", style=card_icon),
+                    html.Div(className=icon, style=card_icon),
                     className="bg-primary",
                     style={"maxWidth": 75, "maxHeight": 90},
                 ),

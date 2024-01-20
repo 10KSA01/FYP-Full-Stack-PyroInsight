@@ -36,19 +36,19 @@ layout = dbc.Card(
             html.Br(),
             dbc.Row(
                 [
-                    dbc.Col([get_statistic_card("Current disabled devices", get_latest_disabled_devices_panel(0))], width=4),
-                    dbc.Col([get_statistic_card("Current faulty devices", get_latest_faulty_devices_panel(0))], width=4),
-                    dbc.Col([get_statistic_card("Current healthy devices", get_latest_healthy_devices_panel(0))], width=4),
+                    dbc.Col([get_statistic_card("Current disabled devices", get_latest_disabled_devices_panel(0), "bi bi-slash-circle")], width=4),
+                    dbc.Col([get_statistic_card("Current faulty devices", get_latest_faulty_devices_panel(0), "bi bi-bug")], width=4),
+                    dbc.Col([get_statistic_card("Current healthy devices", get_latest_healthy_devices_panel(0), "bi bi-heart-pulse")], width=4),
                 ],
                 align="center",    
             ),
             html.Br(),
             dbc.Row(
                 [
-                    dbc.Col([get_statistic_card("Average Obscuration", average_measurement(0, "smoke"))], width=3),
-                    dbc.Col([get_statistic_card("Average Temperature", average_measurement(0, "heat"))], width=3),
-                    dbc.Col([get_statistic_card("Average Carbon Monoxide", average_measurement(0, "co"))], width=3),
-                    dbc.Col([get_statistic_card("Average Dirtiness", average_measurement(0, "dirtiness"))], width=3),
+                    dbc.Col([get_statistic_card("Average Obscuration", average_measurement(0, "smoke"), "bi bi-cloud-haze")], width=3),
+                    dbc.Col([get_statistic_card("Average Temperature", average_measurement(0, "heat"), "bi bi-thermometer-half")], width=3),
+                    dbc.Col([get_statistic_card("Average Carbon Monoxide", average_measurement(0, "co"), "bi bi-wind")], width=3),
+                    dbc.Col([get_statistic_card("Average Dirtiness", average_measurement(0, "dirtiness"), "bi bi-trash")], width=3),
                 ],
                 align="center",    
             ),
