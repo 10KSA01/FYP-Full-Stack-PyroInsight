@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 ## Don't press the play button in the top right corner, it will not work ##
 user = "postgres"
 password = "TestServer123"
-tablename = "sim11-01-24"
+tablename = "sim16-01-24"
 host = "localhost"
 port = "5432"
 dbname = "Devices"
@@ -156,6 +156,27 @@ async def get_disabled_device(id: str):
 
     return result[0]
 
+# Gets the latest the information of a specific device for a specific column
+@app.get("/device/{id}/latest/{column}", status_code=status.HTTP_200_OK)
+async def get_latest_column_device_data(id: str, column: str):
+    subquery = (
+        select([func.max(data.c.datetime).label("latest_datetime")])
+        .where(data.c.id == id)
+    ).alias("latest_subquery")
+
+    query = (
+        select([getattr(data.c, column)])
+        .where(data.c.id == id)
+        .where(data.c.datetime == subquery.c.latest_datetime)
+    ).order_by(desc(data.c.datetime))
+
+    result = await database.fetch_one(query)
+
+    if not result:
+        return JSONResponse(content={"message": "No data found for the given id."}, status_code=status.HTTP_404_NOT_FOUND)
+
+    return result
+
 # Get the average smoke/heat/co/dirtiness of a specific device
 @app.get("/device/{id}/average/{type}/", response_model=float, status_code=status.HTTP_200_OK)
 async def get_average_measurement_device(id: str, type: str):
@@ -202,6 +223,7 @@ async def get_predict_dirtiness_device(id: str):
     query = (
         select([data.c.datetime, data.c.dirtiness])
         .where(data.c.id == id)
+        .order_by(data.c.datetime)
     )
 
     result = await database.fetch_all(query)
@@ -229,13 +251,55 @@ async def get_predict_dirtiness_device(id: str):
     # Get the current datetime and dirtiness for the specific device
     current_datetime = df['datetime'].iloc[-1]
 
+    current_datetime_seconds = pd.to_datetime(current_datetime, unit='s')
+    
     # Predict dirtiness reaching 200 for the specific device
     time_to_reach_200 = int(model.predict([[200]])[0])
 
     # Handle the case where the predicted time is negative (due to a reset)
-    datetime_prediction = pd.to_datetime(current_datetime, unit='s') + timedelta(seconds=abs(time_to_reach_200))
+    datetime_prediction = current_datetime_seconds + timedelta(seconds=abs(time_to_reach_200))
 
     return datetime_prediction
+
+# Get the latest average smoke/heat/co/dirtiness of all devices in a panel/node
+@app.get("/device/{id}/{type}/period/", status_code=status.HTTP_200_OK)
+async def get_measurement_device_period(id: str, type:str):
+    measure_columns = {
+        "smoke": (data.c.units_of_measure1, data.c.converted_value1, "%/m obscuration"),
+        "heat": (data.c.units_of_measure2, data.c.converted_value2, "Degrees C"),
+        "co": (data.c.units_of_measure3, data.c.converted_value3, "ppm (parts per million)"),
+        "dirtiness": (None, data.c.dirtiness, None)
+    }
+
+    if type not in measure_columns:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid type: {type}")
+    
+    unit_of_measure_column, value_of_measure_column, type_of_measure = measure_columns[type]
+    try:
+        if type == "dirtiness":
+            query = (
+                select([data.c.dirtiness, data.c.datetime])
+                .where(data.c.id == id)
+                .order_by(data.c.datetime)
+            )
+        else:
+            query = (
+                select([value_of_measure_column, data.c.datetime])
+                .where(data.c.id == id)
+                .where(unit_of_measure_column == type_of_measure)
+                .order_by(data.c.datetime)
+            )
+        result = await database.fetch_all(query)
+        print(result)
+
+        if result is None:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
+        
+        return [{type: r[value_of_measure_column.name], "datetime": str(r[data.c.datetime.name])} for r in result]
+    except Exception as e:
+        logger.error(f"Error: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
 
 ######### Panel #########
 # Gets the all the information of a all the devices in a specific node/panel
