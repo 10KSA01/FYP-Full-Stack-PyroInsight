@@ -135,3 +135,13 @@ def get_measurement_device_period(id, type):
     except Exception as e:
         print("Error:", e)
         return "Error fetching data"
+    
+def get_measurement_device_predict(id, type):
+    try:
+        response = requests.get(f'http://127.0.0.1:8000/device/{id}/{type}/predict/')
+        data = response.json()
+
+        return data
+    except Exception as e:
+        print("Error:", e)
+        return "Error fetching data"

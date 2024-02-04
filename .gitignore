@@ -1,1 +1,5 @@
 __pycache__/
+fake-device-simulator/logfile.csv
+fake-device-simulator/old/logfile copy 5.csv
+fake-device-simulator/old/logfile copy 6.csv
+fake-device-simulator/logfile.csv

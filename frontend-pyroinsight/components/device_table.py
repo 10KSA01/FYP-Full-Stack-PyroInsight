@@ -240,9 +240,15 @@ def device_measurement_line_graph(type):
         ]
     )
 
-def panel_measurement_line_graph(id, data, title, units, type):
+def panel_measurement_line_graph(id, data, title, units, type, predict):
+    if not data:
+        return html.Div(f"No data available for {id} - {title}")
+
     datetime = [point['datetime'] for point in data]
     measurement = [point[type] for point in data]
+    
+    datetime_predict = [prediction['datetime'] for prediction in predict]
+    measurement_predict = [prediction[type] for prediction in predict]
     return html.Div(
         [
             dbc.CardHeader(f"{id} - {title}"),
@@ -251,7 +257,8 @@ def panel_measurement_line_graph(id, data, title, units, type):
                     dcc.Graph(
                         figure = {
                             'data': [
-                                {'x': datetime, 'y': measurement, 'mode': 'lines'}
+                                {'x': datetime, 'y': measurement, 'mode': 'lines', 'name': 'Real'},
+                                {'x': datetime_predict, 'y': measurement_predict, 'mode': 'lines', 'name': 'Prediction'}
                             ],
                             'layout': {
                                 'xaxis': {'title': 'Date & Time'},
@@ -263,7 +270,6 @@ def panel_measurement_line_graph(id, data, title, units, type):
             )
         ]
     )
-
 
 @callback(
     Output('period-smoke', 'children'),
@@ -277,23 +283,23 @@ def update_measurement_cards(selectedRows):
     if selectedRows:   
         id = selectedRows[0]['id']
         measure_columns = {
-            "period-smoke": ("Obscuration", "Obscuration (%/m)", get_measurement_device_period(id, "smoke"), "smoke"),
-            "period-heat": ("Temperature", "Temperature (°C)", get_measurement_device_period(id, "heat"), "heat"),
-            "period-co": ("Carbon Monoxide", "Carbon Monoxide (ppm)", get_measurement_device_period(id, "co"), "co"),
-            "period-dirtiness": ("Dirtiness", "Dirtiness", get_measurement_device_period(id, "dirtiness"), "dirtiness")
+            "period-smoke": ("Obscuration", "Obscuration (%/m)", get_measurement_device_period(id, "smoke"), "smoke", get_measurement_device_predict(id, "smoke")),
+            "period-heat": ("Temperature", "Temperature (°C)", get_measurement_device_period(id, "heat"), "heat", get_measurement_device_predict(id, "heat")),
+            "period-co": ("Carbon Monoxide", "Carbon Monoxide (ppm)", get_measurement_device_period(id, "co"), "co", get_measurement_device_predict(id, "co")),
+            "period-dirtiness": ("Dirtiness", "Dirtiness", get_measurement_device_period(id, "dirtiness"), "dirtiness", get_measurement_device_predict(id, "dirtiness"))
         }
 
-        title, units, data, type = measure_columns["period-smoke"]
-        period_smoke_data = panel_measurement_line_graph(id, data, title, units, type)
+        title, units, data, type, predict = measure_columns["period-smoke"]
+        period_smoke_data = panel_measurement_line_graph(id, data, title, units, type, predict)
         
-        title, units, data, type = measure_columns["period-heat"]
-        period_heat_data = panel_measurement_line_graph(id, data, title, units, type)
+        title, units, data, type, predict = measure_columns["period-heat"]
+        period_heat_data = panel_measurement_line_graph(id, data, title, units, type, predict)
         
-        title, units, data, type = measure_columns["period-co"]
-        period_co_data = panel_measurement_line_graph(id, data, title, units, type)
+        title, units, data, type, predict = measure_columns["period-co"]
+        period_co_data = panel_measurement_line_graph(id, data, title, units, type, predict)
         
-        title, units, data, type = measure_columns["period-dirtiness"]
-        period_dirtiness_data = panel_measurement_line_graph(id, data, title, units, type)
+        title, units, data, type, predict = measure_columns["period-dirtiness"]
+        period_dirtiness_data = panel_measurement_line_graph(id, data, title, units, type, predict)
         
         
         return period_smoke_data or "Not Applicable", period_heat_data or "Not Applicable", period_co_data or "Not Applicable", period_dirtiness_data or "Not Applicable"
