@@ -14,6 +14,10 @@ import traceback
 from typing import Dict, Union, List
 from sklearn.linear_model import LinearRegression
 from datetime import datetime, timedelta
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+import json
+import numpy as np
 
 logger = logging.getLogger(__name__)
 
@@ -21,7 +25,7 @@ logger = logging.getLogger(__name__)
 ## Don't press the play button in the top right corner, it will not work ##
 user = "postgres"
 password = "TestServer123"
-tablename = "sim16-01-24"
+tablename = "sim20-01-24"
 host = "localhost"
 port = "5432"
 dbname = "Devices"
@@ -290,7 +294,7 @@ async def get_measurement_device_period(id: str, type:str):
                 .order_by(data.c.datetime)
             )
         result = await database.fetch_all(query)
-        print(result)
+        # print(result)
 
         if result is None:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No data found for the given node.")
@@ -301,13 +305,78 @@ async def get_measurement_device_period(id: str, type:str):
         logger.error(traceback.format_exc())
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Internal server error.")
 
+# Get the latest average smoke/heat/co/dirtiness of all devices in a panel/node
+@app.get("/device/{id}/{type}/predict/", status_code=status.HTTP_200_OK)
+async def get_measurement_device_prediction(id: str, type:str):
+    # Call get_measurement_device_period() and store the result
+    result = await get_measurement_device_period(id, type)
+
+    df = pd.DataFrame(result)
+
+    df['datetime'] = pd.to_datetime(df['datetime'])
+    df.set_index('datetime', inplace=True)
+    df_resampled = df.resample('2T').mean().fillna(method='ffill')
+
+    # Step 2: Feature Engineering
+    df_resampled['hour']        = df_resampled.index.hour
+    df_resampled['day_of_week'] = df_resampled.index.dayofweek
+    df_resampled['quarter']     = df_resampled.index.quarter
+    df_resampled['month']       = df_resampled.index.month
+    df_resampled['year']        = df_resampled.index.year
+    df_resampled['dayofyear']   = df_resampled.index.dayofyear
+    df_resampled['dayofmonth']  = df_resampled.index.day
+    df_resampled['week']        = df_resampled.index.isocalendar().week
+    df_resampled['minute']      = df_resampled.index.minute
+    df_resampled['second']      = df_resampled.index.second
+    
+    # Step 3: Train a Time Series Forecasting Model
+    X = df_resampled.drop(type, axis=1)
+    y = df_resampled[type]
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=50)
+    if type == "dirtiness":
+        model = LinearRegression()
+        # Take the logarithm of the target values
+        y_train_log = np.log1p(y_train)
+        model.fit(X_train, y_train_log)
+    else:
+        model = RandomForestRegressor(n_estimators=100)
+        model.fit(X_train, y_train)
+    
+    # Step 4: Make Predictions for the Next 24 Hours
+    future_dates = pd.date_range(df_resampled.index[-1], periods=72, freq='H')[1:]
+
+    features = {'hour': future_dates.hour, 
+                'day_of_week': future_dates.dayofweek, 
+                'quarter': future_dates.quarter, 
+                'month': future_dates.month, 
+                'year': future_dates.year, 
+                'dayofyear': future_dates.dayofyear, 
+                'dayofmonth': future_dates.day, 
+                'week': future_dates.isocalendar().week, 
+                'minute': future_dates.minute, 
+                'second': future_dates.second}
+
+    future_features = pd.DataFrame(features, index=future_dates)
+    if type == "dirtiness":
+        # Apply the exponential function to the predictions
+        predictions = np.expm1(model.predict(future_features))
+    else:
+        predictions = model.predict(future_features)
+    
+    output_json = []
+
+    for date, prediction in zip(future_dates, predictions):
+        output_json.append({'datetime': date.strftime('%Y-%m-%d %H:%M:%S'), type: abs(prediction)})
+    
+    return output_json
+
 ######### Panel #########
 # Gets the all the information of a all the devices in a specific node/panel
 @app.get("/panel/{node}/", response_model=List[Data], status_code=status.HTTP_200_OK)
 async def get_panel_data(node: int):
     query = data.select().where(data.c.node == node)
     result = await database.fetch_all(query)
-    print(result)
+    # print(result)
     if not result:
         return JSONResponse(content={"message": "No data found for the given id."}, status_code=status.HTTP_404_NOT_FOUND)
 
@@ -365,7 +434,7 @@ async def get_latest_disabled_devices_panel(node: int):
 
         # Count the number of faulty devices (reply_status == "Failure")
         faulty_devices = sum(1 for row in result if row["reply_status"] == "Failure")
-        print(faulty_devices)
+        # print(faulty_devices)
         return float(faulty_devices)
 
     except Exception as e:
