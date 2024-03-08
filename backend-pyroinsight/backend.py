@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 ## Don't press the play button in the top right corner, it will not work ##
 user = "postgres"
 password = "TestServer123"
-tablename = "sim29-02-24"
+tablename = "sim23-01-24"
 host = "localhost"
 port = "5432"
 dbname = "Devices"

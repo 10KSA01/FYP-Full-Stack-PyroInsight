@@ -4,15 +4,11 @@ import dash_bootstrap_components as dbc
 from components.sidebar import get_sidebar
 from components.graphs import *
 
-icons = ["bi bi-house-fill", "bi bi-motherboard-fill", "bi bi-person-lines-fill", "bi bi-box-arrow-right"]
-descriptions = ["Main Dashboard", "Device Dashboard", "Profile", "Logout"]
-
-
 # Build App
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP], use_pages=True)
 
 app.title = 'PyroInsight'
-# app._favicon = ('logo.ico')
+app._favicon = ('logo.ico')
 
 app.layout = html.Div(
     [
