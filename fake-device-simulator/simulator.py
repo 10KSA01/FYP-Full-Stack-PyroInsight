@@ -134,16 +134,6 @@ class FakeDeviceSimulator:
 
     def rand_failures(self, index):
         # I want the reply status to be a failure whenever there is fault in any fault state
-        # if self.counter % self.rand_failure_reply_status() == 0:
-        #     self.devices.iat[index, 1] = "Failure"
-        # else:
-        #     self.devices.iat[index, 1] = "Success"
-
-        # if self.counter % self.rand_failure_flags() == 0:
-        #     self.devices.iat[index, 2] = "Loop Fault"
-        # else:
-        #     self.devices.iat[index, 2] = "None"
-
         if self.counter % self.rand_failure_instantaneous_fault_state() == 0:
             self.devices.iat[index, 33] = str(self.rand_failure_instantaneous_fault_state())
             if (self.rand_failure_instantaneous_fault_state() > 49 and self.rand_failure_instantaneous_fault_state() < 100):

@@ -1,11 +1,8 @@
-from dash import Dash, dcc, html, dash_table, Input, Output, callback, State
-import requests
+from dash import dcc, html, dash_table, Input, Output, callback
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import dash_ag_grid as dag
-import pandas as pd
 from apis import *
-from components.statistic_card import get_statistic_card
 from constants import fault_list
 
 selected_columns = ['id', 'datetime', 'device_type', 'converted_value1', 'converted_value2', 'converted_value3', 'instantaneous_fault_state', 'confirmed_fault_state', 'acknowledged_fault_state']
