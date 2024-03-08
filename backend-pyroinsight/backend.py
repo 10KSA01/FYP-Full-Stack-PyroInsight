@@ -2,7 +2,7 @@ from typing import List
 import databases
 import sqlalchemy
 from sqlalchemy import select, func, and_, distinct, desc, text, cast, DateTime, or_
-from fastapi import FastAPI, status, Request, Path
+from fastapi import FastAPI, status, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from datetime import datetime
@@ -16,7 +16,6 @@ from sklearn.linear_model import LinearRegression
 from datetime import datetime, timedelta
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
-import json
 import numpy as np
 
 logger = logging.getLogger(__name__)
@@ -25,7 +24,7 @@ logger = logging.getLogger(__name__)
 ## Don't press the play button in the top right corner, it will not work ##
 user = "postgres"
 password = "TestServer123"
-tablename = "sim20-01-24"
+tablename = "sim29-02-24"
 host = "localhost"
 port = "5432"
 dbname = "Devices"
