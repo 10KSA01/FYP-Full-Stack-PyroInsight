@@ -1,7 +1,6 @@
-from dash import Dash, dcc, html
+from dash import Dash, html
 import dash
 import dash_bootstrap_components as dbc
-import plotly.express as px
 from components.sidebar import get_sidebar
 from components.graphs import *
 
